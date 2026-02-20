@@ -37,6 +37,7 @@ The core content. Each resource is a markdown file describing a learning resourc
 title: Elekktronaut YouTube Channel
 url: https://www.youtube.com/@elekktronaut
 status: active           # active | inactive | archived
+lastVerified: 2026-01-15 # date you last checked this resource
 sourceType: youtube      # youtube | patreon | blog | course | github | aggregator | forum | discord | reddit | website | social
 pricingModel: freemium   # free | freemium | paid
 skillLevels:
@@ -47,8 +48,8 @@ topics:
   - feedback-loops
 domains:
   - generative-art
-hubs:
-  - creative-coding
+platforms:               # defaults to [touchdesigner] — set explicitly for other platforms
+  - touchdesigner
 creatorSlugs:
   - bileam-tschepe
 description: Design-focused TouchDesigner tutorials.
@@ -56,6 +57,8 @@ featured: true
 ---
 Optional markdown body with additional notes.
 ```
+
+**Defaults:** `hubs` defaults to `['creative-coding']` and `platforms` defaults to `['touchdesigner']`. Set these explicitly when adding resources for other hubs or platforms (e.g., `hubs: ['agentic-systems']`, `platforms: ['langchain']`).
 
 ### Creators
 
