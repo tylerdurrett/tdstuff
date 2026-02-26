@@ -70,7 +70,7 @@ fi
 
 # Install Node.js dependencies
 echo "Installing Node.js dependencies..."
-npm install
+pnpm install
 
 echo ""
 echo "✅ Installation complete!"

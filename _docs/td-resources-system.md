@@ -169,22 +169,22 @@ Default filter: `status: ['active']` (hides inactive and archived resources).
 ## Build & Export
 
 ```bash
-npm run dev              # Velite watches content/ and rebuilds on changes
-npm run build            # Full production build (includes Velite)
-npm run content:build    # Manual Velite build
-npm run content:watch    # Manual Velite watch mode
+pnpm dev              # Velite watches content/ and rebuilds on changes
+pnpm build            # Full production build (includes Velite)
+pnpm content:build    # Manual Velite build
+pnpm content:watch    # Manual Velite watch mode
 ```
 
 Export content to stdout:
 
 ```bash
-npm run export creators                              # Names, one per line
-npm run export creators -- --json                    # JSON array
-npm run export resources -- --full --resolve --json  # Full objects with resolved relationships
-npm run export creators > creators.txt               # Save to file
+pnpm export creators                              # Names, one per line
+pnpm export creators -- --json                    # JSON array
+pnpm export resources -- --full --resolve --json  # Full objects with resolved relationships
+pnpm export creators > creators.txt               # Save to file
 ```
 
-Run `npm run export` for all options.
+Run `pnpm export` for all options.
 
 ## Architecture (for developers)
 

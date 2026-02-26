@@ -31,7 +31,7 @@ sudo apt-get install -y libnss3 libnspr4 libasound2t64 libatk1.0-0 libatk-bridge
 **All platforms** - Install Node dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Scripts

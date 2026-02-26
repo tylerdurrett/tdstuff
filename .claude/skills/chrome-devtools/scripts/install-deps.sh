@@ -176,6 +176,6 @@ esac
 echo ""
 echo "📝 Next steps:"
 echo "   1. Run: cd $(dirname "$0")"
-echo "   2. Run: npm install"
+echo "   2. Run: pnpm install"
 echo "   3. Test: node navigate.js --url https://example.com"
 echo ""

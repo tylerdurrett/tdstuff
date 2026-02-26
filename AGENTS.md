@@ -30,14 +30,14 @@ This is a Next.js 16 application using the App Router pattern with TypeScript an
 - Use Shadcn components for standard UI components, located in src/components/ui
 - Common UI components live in `/src/components/ui/` and you import them with `@/components/ui/...`
 - This site may be in light or dark mode, so always use semantic coloring that is compatible with both color modes.
-- To add a component, use `npm run add <component-name>` to add the component
+- To add a component, use `pnpm add <component-name>` to add the component
 - It's preferred to use Tailwind classes over inline styles or external CSS. If you do need to create custom external CSS rules, add them to a file co-located with the component or page and import it.
 
 ## Sanity CMS
 
 - The site uses Sanity CMS to bring in some of the content.
 - Sanity settings are in `sanity.config.ts` and `src/sanity/`
-- Sanity types are generated with `npm run gen` and land in `sanity.types.ts`
+- Sanity types are generated with `pnpm gen` and land in `sanity.types.ts`
 - Fetch functions are in `src/models/*`
 
 ## Resource Hubs (Velite)

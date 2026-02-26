@@ -34,8 +34,8 @@ A simple contact form with bot protection.
 ## Running Locally
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 The dev server starts at [http://localhost:9600](http://localhost:9600).
@@ -44,13 +44,13 @@ The dev server starts at [http://localhost:9600](http://localhost:9600).
 
 | Command | What it does |
 | --- | --- |
-| `npm run dev` | Dev server (port 9600, Turbopack) |
-| `npm run build` | Production build |
-| `npm run lint` | Lint the codebase |
-| `npm run format` | Auto-format with Prettier |
-| `npm run gen` | Generate TypeScript types from Sanity schema |
-| `npm run add <name>` | Add a Shadcn/ui component |
-| `npm run export creators` | Export content data (see `--help` for options) |
+| `pnpm dev` | Dev server (port 9600, Turbopack) |
+| `pnpm build` | Production build |
+| `pnpm lint` | Lint the codebase |
+| `pnpm format` | Auto-format with Prettier |
+| `pnpm gen` | Generate TypeScript types from Sanity schema |
+| `pnpm add <name>` | Add a Shadcn/ui component |
+| `pnpm export creators` | Export content data (see `--help` for options) |
 
 ## Tech Stack
 

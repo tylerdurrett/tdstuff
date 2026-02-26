@@ -31,7 +31,7 @@ Supports: Ubuntu, Debian, Fedora, RHEL, CentOS, Arch, Manjaro
 #### Step 2: Install Node Dependencies
 
 ```bash
-npm install  # Installs puppeteer, debug, yargs
+pnpm install  # Installs puppeteer, debug, yargs
 ```
 
 #### Step 3: Install ImageMagick (Optional, Recommended)
@@ -186,7 +186,7 @@ mkdir -p _screenshots/$(date +%Y-%m-%d)
 node .claude/skills/chrome-devtools/scripts/screenshot.js --url https://example.com --output "_screenshots/$(date +%Y-%m-%d)/$(date +%Y-%m-%d_%H%M%S)_page.jpg" --format jpeg --quality 80 --max-size 0.5
 ```
 
-**Note**: Only `cd` into `.claude/skills/chrome-devtools/scripts/` for installation (`npm install`).
+**Note**: Only `cd` into `.claude/skills/chrome-devtools/scripts/` for installation (`pnpm install`).
 
 ### Output Validation
 
@@ -329,7 +329,7 @@ node snapshot.js --url https://example.com | jq '.elements[] | {tagName, text, s
 
 **"Cannot find package 'puppeteer'"**
 
-- Run: `npm install` in the scripts directory
+- Run: `pnpm install` in the scripts directory
 
 **"error while loading shared libraries: libnss3.so"** (Linux/WSL)
 
@@ -341,11 +341,11 @@ node snapshot.js --url https://example.com | jq '.elements[] | {tagName, text, s
 
 - Check system dependencies installed (Linux/WSL)
 - Verify Chrome downloaded: `ls ~/.cache/puppeteer`
-- Try: `npm rebuild` then `npm install`
+- Try: `pnpm rebuild` then `pnpm install`
 
 **Chrome not found**
 
-- Puppeteer auto-downloads Chrome during `npm install`
+- Puppeteer auto-downloads Chrome during `pnpm install`
 - If failed, manually trigger: `npx puppeteer browsers install chrome`
 
 ### Script Issues

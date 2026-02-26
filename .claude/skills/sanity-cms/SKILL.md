@@ -21,7 +21,7 @@ Set via shell profile or `.env.local` at project root. The scripts check `proces
 ### Install Dependencies
 
 ```bash
-cd .claude/skills/sanity-cms/scripts && npm install
+cd .claude/skills/sanity-cms/scripts && pnpm install
 ```
 
 ## Scripts

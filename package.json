@@ -11,7 +11,7 @@
     "format:check": "prettier --check .",
     "add": "npx shadcn@latest add",
     "schema:extract": "sanity schema extract --enforce-required-fields",
-    "gen": "npm run schema:extract && sanity typegen generate",
+    "gen": "pnpm run schema:extract && sanity typegen generate",
     "content:build": "velite --clean",
     "content:watch": "velite --watch",
     "export": "tsx scripts/export.ts",
