@@ -90,6 +90,13 @@ while [ $# -gt 0 ]; do
   shift
 done
 
+# --- Resolve claude binary ---
+CLAUDE="${CLAUDE:-$(command -v claude 2>/dev/null || echo "$HOME/.claude/local/claude")}"
+if [ ! -x "$CLAUDE" ]; then
+  echo "Error: claude CLI not found. Set CLAUDE env var or ensure claude is in PATH."
+  exit 1
+fi
+
 # --- Constants ---
 
 COMPLETE_MARKER='<promise>COMPLETE</promise>'
@@ -154,14 +161,14 @@ run_claude_streaming() {
   shift
   > "$tmpfile"
 
-  claude "$@" --output-format stream-json --verbose \
+  "$CLAUDE" "$@" --output-format stream-json --verbose \
     | tee "$tmpfile" \
     | jq --unbuffered -r 'select(.type == "assistant") | .message.content[]? | select(.type == "text") | .text' 2>/dev/null \
     || true
 
   if [ ! -s "$tmpfile" ]; then
     echo "[ralph_json] Warning: No output from claude. Retrying with json format for diagnostics..."
-    claude "$@" --output-format json 2>&1 | tee "$tmpfile" || true
+    "$CLAUDE" "$@" --output-format json 2>&1 | tee "$tmpfile" || true
   fi
 }
 
