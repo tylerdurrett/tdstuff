@@ -1,0 +1,8 @@
+{
+  "name": "sanity-cms-scripts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@sanity/client": "^7"
+  }
+}
