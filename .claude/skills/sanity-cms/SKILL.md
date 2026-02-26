@@ -169,6 +169,10 @@ For full field definitions, Portable Text construction examples, GROQ patterns, 
 - **Images**: Upload first with upload.js, then use the returned `ref` in the image field's `asset` property
 - **Block content**: Portable Text format — see schema reference for JSON structure
 
+## Shell Gotchas
+
+- **`!` in GROQ queries**: Zsh treats `!` as history expansion even inside double quotes, so queries containing `!(_id in path("drafts.**"))` will fail with a parse error. **Workaround**: Omit the `!` filter from the GROQ query and filter drafts out in post-processing instead (e.g., pipe to `python3` or `jq` and exclude items where `_id` starts with `"drafts."`).
+
 ## Limitations
 
 - **Mux videos** cannot be uploaded via this skill. They go through the Sanity Studio Mux plugin.
