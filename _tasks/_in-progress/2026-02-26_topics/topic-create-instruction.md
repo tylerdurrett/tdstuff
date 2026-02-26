@@ -34,12 +34,8 @@ Your goal is to categorize the post (using the topic sanity type).
 
 Based on the content of the post, what are the main 2-5 topics that best encapsulate the content? Think like a blog maintainer. The topics you choose should be important aspects of the article that people might search or browse by.
 
-You can and should create new topics as needed. Use your Sanity skill to do so. If one of the topics is already in the system, use that instead of adding a new one. If the post already has 2-5 topics, you do not need to add more. Do not create the same topic twice or attache the same topic to a post that already has it.
+Now you will add the topics to the post. You can and should create new topics as needed. Use your Sanity skill to do so. When you create a topic, also give it a description. If one of the topics is already in the system, use that instead of adding a new one. If the post already has 2-5 topics, you do not need to add more. Do not create the same topic twice or attache the same topic to a post that already has it. Use your sanity skill to create the slug and be sure it doesn't not include `.` or other disallowed characters.
 
 Use your sanity skill to create the topics (if needed) and attach them to the post.
 
-When you have successfully attached the topics to the post, you are done.
-
-Now:
-Output the topics list, comma separated, inside <output></output> tags as part of your response.
-If there is an unsolvable error (this should not happen or be exceedingly rare), output an error message in <error></error> tags.
+When you have successfully attached the topics to the post, you are done and can follow the remaining instructions to output report your output/results.
