@@ -79,6 +79,17 @@ export const readingListType = defineType({
       ],
     }),
     defineField({
+      name: 'topics',
+      title: 'Topics',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: { type: 'topic' },
+        },
+      ],
+    }),
+    defineField({
       name: 'featuredImage',
       title: 'Featured Image',
       type: 'image',

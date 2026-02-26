@@ -275,6 +275,13 @@ export type ReadingList = {
   discussionShortSummary?: string
   discussionGist?: string
   discussionTitle?: string
+  topics?: Array<{
+    _ref: string
+    _type: 'reference'
+    _weak?: boolean
+    _key: string
+    [internalGroqTypeReferenceTo]?: 'topic'
+  }>
   body?: BlockContent
 }
 
