@@ -206,6 +206,23 @@ export type Callout = {
   }>
 }
 
+export type Topic = {
+  _id: string
+  _type: 'topic'
+  _createdAt: string
+  _updatedAt: string
+  _rev: string
+  title: string
+  slug: Slug
+  description?: string
+  parent?: {
+    _ref: string
+    _type: 'reference'
+    _weak?: boolean
+    [internalGroqTypeReferenceTo]?: 'topic'
+  }
+}
+
 export type ReadingList = {
   _id: string
   _type: 'readingList'
@@ -577,6 +594,7 @@ export type AllSanitySchemaTypes =
   | Youtube
   | FileBlock
   | Callout
+  | Topic
   | ReadingList
   | Post
   | Category
@@ -929,7 +947,7 @@ export type PostQueryResult = {
 
 // Source: ./src/models/category.ts
 // Variable: categoriesQuery
-// Query: *[    _type == "category"    && count(*[_type == "readingList" && references(^._id)]) > 0  ]|order(title asc){    _id,    title,    slug,    description  }
+// Query: *[    _type == "category"    && count(*[_type == "readingList" && references(^._id)]) >= 5  ]|order(title asc){    _id,    title,    slug,    description  }
 export type CategoriesQueryResult = Array<{
   _id: string
   title: string
@@ -1548,7 +1566,7 @@ declare module '@sanity/client' {
   interface SanityQueries {
     '*[\n    _type == "post"\n    && defined(slug.current)\n  ]|order(publishedAt desc)[0...$limit]{\n    _id, \n    title, \n    slug, \n    publishedAt, \n    excerpt, \n    body[]{\n      ...,\n      _type == "mux.video" => {\n        asset->\n      }\n    }, \n    category->{title, slug}, \n    mainImage, \n    mainVideo{..., asset->},\n    author->{name, image}\n  }': PostsQueryResult
     '*[_type == "post" && slug.current == $slug && category->slug.current == $categorySlug][0]{\n      _id, \n      title, \n      slug, \n      subtitle, \n      intro, \n      category->{title, slug}, \n      publishedAt, \n      editedAt, \n      excerpt, \n      mainImage{..., "caption": caption},\n      hideMainImageOnPost,\n      mainVideo{..., asset->},\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }, \n      author->{name, image}\n    }': PostQueryResult
-    '*[\n    _type == "category"\n    && count(*[_type == "readingList" && references(^._id)]) > 0\n  ]|order(title asc){\n    _id,\n    title,\n    slug,\n    description\n  }': CategoriesQueryResult
+    '*[\n    _type == "category"\n    && count(*[_type == "readingList" && references(^._id)]) >= 5\n  ]|order(title asc){\n    _id,\n    title,\n    slug,\n    description\n  }': CategoriesQueryResult
     '*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n  ]|order(savedAt desc)[$start...$end]{\n    _id,\n    title,\n    slug,\n    originalUrl,\n    savedAt,\n    gist,\n    shortSummary,\n    keyPoints,\n    sentiment,\n    keyAgreeingViewpoints,\n    keyOpposingViewpoints,\n    categories[]->{title, slug},\n    featuredImage\n  }': ReadingListItemsQueryResult
     'count(*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n  ])': CountQueryResult
     '*[_type == "readingList" && slug.current == $slug][0]{\n      _id, \n      title, \n      originalTitle,\n      slug, \n      originalUrl,\n      discussionUrl,\n      categories[]->{title, slug}, \n      savedAt, \n      featuredImage{..., "caption": caption},\n      detailedSummary,\n      keyPoints,\n      conclusion,\n      shortSummary,\n      gist,\n      newTitle,\n      discussionDetailedSummary,\n      keyAgreeingViewpoints,\n      keyOpposingViewpoints,\n      sentiment,\n      discussionShortSummary,\n      discussionGist,\n      discussionTitle,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ReadingListItemQueryResult
