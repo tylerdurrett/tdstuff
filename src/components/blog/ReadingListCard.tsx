@@ -14,14 +14,15 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
     ? urlFor(item.featuredImage)?.width(120).height(120).url()
     : null
 
-  const hasTopics = item.topics && item.topics.length > 0
-
   return (
     <article className="bg-card text-card-foreground rounded-3xl border-4 border-transparent hover:border-accent has-[.external-link:hover]:hover:border-accent/60 transition-colors duration-300 relative">
       <Link
         href={`/reading/${item.slug.current}`}
-        className={`group flex items-start gap-4 p-4 sm:p-6 ${hasTopics ? 'pb-2 sm:pb-3' : ''}`}
+        className="absolute inset-0 z-0 rounded-3xl"
       >
+        <span className="sr-only">{item.title}</span>
+      </Link>
+      <div className="flex items-start gap-4 p-4 sm:p-6">
         {imageUrl && (
           <div className="flex-shrink-0">
             <Image
@@ -43,31 +44,34 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
           <h2 className="text-2xl sm:text-3xl font-bold mb-2 leading-tight">
             {item.title}
           </h2>
-          {item.savedAt && (
-            <time
-              dateTime={item.savedAt}
-              className="text-sm text-muted-foreground"
-            >
-              {new Date(item.savedAt).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-              })}
-            </time>
-          )}
+          <div className="flex items-center gap-2 flex-wrap">
+            {item.savedAt && (
+              <time
+                dateTime={item.savedAt}
+                className="text-sm text-muted-foreground"
+              >
+                {new Date(item.savedAt).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'short',
+                  day: 'numeric',
+                })}
+              </time>
+            )}
+            {item.topics &&
+              item.topics.length > 0 &&
+              item.topics.map((topic) => (
+                <Badge key={topic._id} variant="secondary" asChild>
+                  <Link
+                    href={`/reading?topic=${topic.slug.current}`}
+                    className="relative z-10"
+                  >
+                    {topic.title}
+                  </Link>
+                </Badge>
+              ))}
+          </div>
         </div>
-      </Link>
-      {hasTopics && (
-        <div className="flex flex-wrap gap-1.5 px-4 sm:px-6 pb-4 sm:pb-6">
-          {item.topics!.map((topic) => (
-            <Badge key={topic._id} variant="secondary" asChild>
-              <Link href={`/reading?topic=${topic.slug.current}`}>
-                {topic.title}
-              </Link>
-            </Badge>
-          ))}
-        </div>
-      )}
+      </div>
       {item.originalUrl && (
         <Link
           href={item.originalUrl}
