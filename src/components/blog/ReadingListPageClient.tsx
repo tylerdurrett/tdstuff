@@ -1,11 +1,14 @@
 'use client'
 
+import Link from 'next/link'
+import { X } from 'lucide-react'
 import { ReadingListCard } from '@/components/blog/ReadingListCard'
 import { CategoryPills } from '@/components/blog/CategoryPills'
 import { ReadingListItemMeta } from '@/models/readingList'
 import { Category } from '@/models/category'
 import { PaginationControls } from '@/components/ui/PaginationControls'
 import { usePagination } from '@/hooks/usePagination'
+import { Badge } from '@/components/ui/badge'
 
 interface ReadingListPageClientProps {
   items: ReadingListItemMeta[]
@@ -14,6 +17,8 @@ interface ReadingListPageClientProps {
   totalItems: number
   pageSize: number
   selectedCategory: string | null
+  selectedTopic: string | null
+  activeTopicTitle: string | null
 }
 
 export function ReadingListPageClient({
@@ -23,6 +28,8 @@ export function ReadingListPageClient({
   totalItems,
   pageSize,
   selectedCategory,
+  selectedTopic,
+  activeTopicTitle,
 }: ReadingListPageClientProps) {
   const {
     pagination,
@@ -37,6 +44,10 @@ export function ReadingListPageClient({
     basePath: '/reading',
   })
 
+  const clearTopicHref = selectedCategory
+    ? `/reading?category=${selectedCategory}`
+    : '/reading'
+
   return (
     <div className="relative">
       <CategoryPills
@@ -44,10 +55,27 @@ export function ReadingListPageClient({
         selectedCategory={selectedCategory}
         basePath="/reading"
       />
+      {activeTopicTitle && (
+        <div className="flex items-center justify-center mb-6 -mt-4">
+          <Badge
+            variant="secondary"
+            className="flex items-center gap-1.5 px-3 py-1 text-sm"
+          >
+            <span>Topic: {activeTopicTitle}</span>
+            <Link
+              href={clearTopicHref}
+              aria-label="Clear topic filter"
+              className="ml-1 rounded-full p-0.5 transition-colors hover:bg-secondary-foreground/10"
+            >
+              <X className="h-3 w-3" />
+            </Link>
+          </Badge>
+        </div>
+      )}
       {items.length === 0 ? (
         <p className="px-4 text-muted-foreground sm:px-6 lg:px-8">
-          {selectedCategory
-            ? 'No reading list items in this category yet.'
+          {selectedCategory || selectedTopic
+            ? 'No reading list items match this filter.'
             : 'No reading list items yet. Check back soon!'}
         </p>
       ) : (

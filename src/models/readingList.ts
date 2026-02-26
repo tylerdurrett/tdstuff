@@ -16,9 +16,10 @@ export async function getReadingListItems(
     page?: number
     limit?: number
     category?: string
+    topic?: string
   } = {}
 ) {
-  const { page = 1, limit = 100, category = '' } = options
+  const { page = 1, limit = 100, category = '', topic = '' } = options
   const start = (page - 1) * limit
   const end = start + limit - 1
 
@@ -26,6 +27,7 @@ export async function getReadingListItems(
     _type == "readingList"
     && defined(slug.current)
     && ($category == "" || $category in categories[]->slug.current)
+    && ($topic == "" || $topic in topics[]->slug.current)
   ]|order(savedAt desc)[$start...$end]{
     _id,
     title,
@@ -44,7 +46,7 @@ export async function getReadingListItems(
 
   const readingListItems = await client.fetch(
     readingListItemsQuery,
-    { start, end, category },
+    { start, end, category, topic },
     { next: { revalidate: 30 } }
   )
 
@@ -55,16 +57,20 @@ export async function getReadingListItems(
  * ------------------------------------------------------------------
  * Get total count of reading list items
  */
-export async function getReadingListItemsCount(category: string = '') {
+export async function getReadingListItemsCount(
+  category: string = '',
+  topic: string = ''
+) {
   const countQuery = defineQuery(`count(*[
     _type == "readingList"
     && defined(slug.current)
     && ($category == "" || $category in categories[]->slug.current)
+    && ($topic == "" || $topic in topics[]->slug.current)
   ])`)
 
   const count = await client.fetch(
     countQuery,
-    { category },
+    { category, topic },
     { next: { revalidate: 30 } }
   )
 

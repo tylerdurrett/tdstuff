@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { getReadingListItemBySlug } from '@/models/readingList'
 import Image from 'next/image'
 import { urlFor } from '@/sanity/lib/image'
+import Link from 'next/link'
 import { ExternalLinkIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import '../../blog/prose.css'
@@ -118,8 +119,10 @@ export default async function ReadingListItem({ params }: Props) {
                   </span>
                   <div className="flex items-center gap-1.5 flex-wrap">
                     {item.topics.map((topic) => (
-                      <Badge key={topic._id} variant="secondary">
-                        {topic.title}
+                      <Badge key={topic._id} variant="secondary" asChild>
+                        <Link href={`/reading?topic=${topic.slug.current}`}>
+                          {topic.title}
+                        </Link>
                       </Badge>
                     ))}
                   </div>

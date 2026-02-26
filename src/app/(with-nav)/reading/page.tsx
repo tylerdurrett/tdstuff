@@ -4,6 +4,7 @@ import {
   getReadingListItemsCount,
 } from '@/models/readingList'
 import { getCategories } from '@/models/category'
+import { getTopicBySlug } from '@/models/topic'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -18,14 +19,15 @@ type Props = {
 export default async function ReadingListPage({ searchParams }: Props) {
   const params = await searchParams
   const page = Number(params?.page) || 1
-  const category =
-    typeof params?.category === 'string' ? params.category : ''
+  const category = typeof params?.category === 'string' ? params.category : ''
+  const topic = typeof params?.topic === 'string' ? params.topic : ''
   const pageSize = 100
 
-  const [items, categories, totalItems] = await Promise.all([
-    getReadingListItems({ page, limit: pageSize, category }),
+  const [items, categories, totalItems, activeTopic] = await Promise.all([
+    getReadingListItems({ page, limit: pageSize, category, topic }),
     getCategories(),
-    getReadingListItemsCount(category),
+    getReadingListItemsCount(category, topic),
+    topic ? getTopicBySlug(topic) : Promise.resolve(null),
   ])
 
   return (
@@ -37,6 +39,8 @@ export default async function ReadingListPage({ searchParams }: Props) {
         totalItems={totalItems}
         pageSize={pageSize}
         selectedCategory={category || null}
+        selectedTopic={topic || null}
+        activeTopicTitle={activeTopic?.title ?? null}
       />
     </div>
   )
