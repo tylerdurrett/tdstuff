@@ -3,6 +3,7 @@ import { ReadingListItemMeta } from '@/models/readingList'
 import { urlFor } from '@/sanity/lib/image'
 import Image from 'next/image'
 import { ExternalLinkIcon } from 'lucide-react'
+import { Badge } from '@/components/ui/badge'
 
 interface ReadingListCardProps {
   item: ReadingListItemMeta
@@ -13,11 +14,13 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
     ? urlFor(item.featuredImage)?.width(120).height(120).url()
     : null
 
+  const hasTopics = item.topics && item.topics.length > 0
+
   return (
     <article className="bg-card text-card-foreground rounded-3xl border-4 border-transparent hover:border-accent has-[.external-link:hover]:hover:border-accent/60 transition-colors duration-300 relative">
       <Link
         href={`/reading/${item.slug.current}`}
-        className="group flex items-start gap-4 p-4 sm:p-6"
+        className={`group flex items-start gap-4 p-4 sm:p-6 ${hasTopics ? 'pb-2 sm:pb-3' : ''}`}
       >
         {imageUrl && (
           <div className="flex-shrink-0">
@@ -54,6 +57,17 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
           )}
         </div>
       </Link>
+      {hasTopics && (
+        <div className="flex flex-wrap gap-1.5 px-4 sm:px-6 pb-4 sm:pb-6">
+          {item.topics!.map((topic) => (
+            <Badge key={topic._id} variant="secondary" asChild>
+              <Link href={`/reading?topic=${topic.slug.current}`}>
+                {topic.title}
+              </Link>
+            </Badge>
+          ))}
+        </div>
+      )}
       {item.originalUrl && (
         <Link
           href={item.originalUrl}

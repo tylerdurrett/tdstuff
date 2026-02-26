@@ -41,6 +41,7 @@ export async function getReadingListItems(
     keyAgreeingViewpoints,
     keyOpposingViewpoints,
     categories[]->{title, slug},
+    topics[]->{_id, title, slug},
     featuredImage
   }`)
 
