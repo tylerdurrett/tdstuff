@@ -65,8 +65,9 @@ See [\_docs/td-resources-system.md](_docs/td-resources-system.md) for full docum
 - Animation definitions live in `src/lib/gsap/animations/`
 - Server components use `AnimationsInit`; client components use the `useAnimations` hook
 
-## Important Reminders
+## Dev Server
 
+- The dev server runs on **port 9600** (`pnpm dev` → `next dev --turbopack -p 9600`).
 - Don't run the dev server - it's already running.
 - Don't use `any` types. They'll get flagged by the linter and you'll have to fix them.
 - Always ask the user before making changes to which packages are installed.
