@@ -1,8 +1,6 @@
-Please use [SCRIPT] to fetch the next unprocessed item from [JSON_TASK_LIST_FILE].
+For the item you were given:
 
-For the selected item: [ITEM]
-
-Fetch the item from Sanity CMS using your Sanity skill.
+Fetch the item with all its fields and attached topics by id using your Sanity skill.
 
 Read the entire post including all the fields. It includes these fields:
 
@@ -30,12 +28,18 @@ Read the entire post including all the fields. It includes these fields:
 - discussionTitle — Rewritten headline for the discussion
 - body — NOT USED
 
-Also, use your Sanity skill to fetch a list of all the TOPICs used so far on the site.
+Also, use your Sanity skill to fetch a list of all the TOPICs used so far on the site along with a count of how many posts use that topic.
 
 Your goal is to categorize the post (using the topic sanity type).
 
-Based on the content of the post, what are the main 2-5 topics that best encapsulate the content? You can and should create new topics as needed. Use your Sanity skill to do so. If one of the topics is already in the system, use that instead of adding a new one.
+Based on the content of the post, what are the main 2-5 topics that best encapsulate the content? Think like a blog maintainer. The topics you choose should be important aspects of the article that people might search or browse by.
 
-Create/attach the topics to the post as needed.
+You can and should create new topics as needed. Use your Sanity skill to do so. If one of the topics is already in the system, use that instead of adding a new one. If the post already has 2-5 topics, you do not need to add more. Do not create the same topic twice or attache the same topic to a post that already has it.
 
-When you are done, use [SCRIPT] to mark the item as complete.
+Use your sanity skill to create the topics (if needed) and attach them to the post.
+
+When you have successfully attached the topics to the post, you are done.
+
+Now:
+Output the topics list, comma separated, inside <output></output> tags as part of your response.
+If there is an unsolvable error (this should not happen or be exceedingly rare), output an error message in <error></error> tags.
