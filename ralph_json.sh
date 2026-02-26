@@ -4,7 +4,7 @@
 # Streams Claude's output in real-time so you can watch progress.
 #
 # Usage:
-#   ./ralph_json.sh <json-file> <prompt-file> [max-iterations] [extra-instructions] [--stop-on-manual-test]
+#   ./ralph_json.sh <json-file> <prompt-file> [max-iterations] [extra-instructions] [--stop-on-manual-test] [--no-plan]
 #
 # Arguments:
 #   json-file:             Path to a JSON file containing an array of task items.
@@ -12,6 +12,7 @@
 #   max-iterations:        Maximum iterations to run (default: 30). Each iteration processes one item.
 #   extra-instructions:    Additional instructions appended to the prompt (optional, quote the string).
 #   --stop-on-manual-test: Stop when NEEDS_HUMAN_TEST is emitted (default: off).
+#   --no-plan:             Skip the planning phase, run everything in a single execution pass.
 #
 # JSON File Format:
 #   The JSON file must be an array of objects. Each object MUST have a "status" field.
@@ -48,12 +49,13 @@ set -uo pipefail
 # --- Argument parsing ---
 
 if [ -z "${1:-}" ] || [ -z "${2:-}" ]; then
-  echo "Usage: $0 <json-file> <prompt-file> [max-iterations] [extra-instructions] [--stop-on-manual-test]"
+  echo "Usage: $0 <json-file> <prompt-file> [max-iterations] [extra-instructions] [--stop-on-manual-test] [--no-plan]"
   echo "  json-file:           Path to a JSON array of task items (each must have a 'status' field)"
   echo "  prompt-file:         Path to a file containing the instruction prompt"
   echo "  max-iterations:      Maximum iterations to run (default: 30)"
   echo "  extra-instructions:  Additional instructions appended to the prompt (optional, quote the string)"
   echo "  --stop-on-manual-test: Stop when NEEDS_HUMAN_TEST is emitted (default: off)"
+  echo "  --no-plan:           Skip the planning phase, run in a single execution pass"
   exit 1
 fi
 
@@ -65,6 +67,7 @@ shift
 MAX_ITERATIONS="30"
 EXTRA_INSTRUCTIONS=""
 STOP_ON_MANUAL_TEST=0
+NO_PLAN=0
 
 if [ $# -gt 0 ] && [[ "$1" != --* ]]; then
   MAX_ITERATIONS="$1"
@@ -81,9 +84,12 @@ while [ $# -gt 0 ]; do
     --stop-on-manual-test)
       STOP_ON_MANUAL_TEST=1
       ;;
+    --no-plan)
+      NO_PLAN=1
+      ;;
     *)
       echo "Error: Unknown argument: $1"
-      echo "Usage: $0 <json-file> <prompt-file> [max-iterations] [extra-instructions] [--stop-on-manual-test]"
+      echo "Usage: $0 <json-file> <prompt-file> [max-iterations] [extra-instructions] [--stop-on-manual-test] [--no-plan]"
       exit 1
       ;;
   esac
@@ -313,6 +319,9 @@ if [ "$STOP_ON_MANUAL_TEST" -eq 1 ]; then
 else
   echo "Stop on manual test: disabled (default)"
 fi
+if [ "$NO_PLAN" -eq 1 ]; then
+  echo "Plan phase: skipped (--no-plan)"
+fi
 if [ -n "$EXTRA_INSTRUCTIONS" ]; then
   echo "Extra instructions: $EXTRA_INSTRUCTIONS"
 fi
@@ -368,38 +377,48 @@ EOF
 
   ITEM_HANDLED=0
 
-  # Phase 1: Plan (read-only, streamed)
-  echo "--- Planning phase ---"
-  run_claude_streaming "$TMPFILE" -p "$ITEM_PROMPT" --permission-mode plan
+  if [ "$NO_PLAN" -eq 0 ]; then
+    # Phase 1: Plan (read-only, streamed)
+    echo "--- Planning phase ---"
+    run_claude_streaming "$TMPFILE" -p "$ITEM_PROMPT" --permission-mode plan
 
-  session_id=$(get_session_id "$TMPFILE")
-  plan_result=$(get_result_text "$TMPFILE")
+    session_id=$(get_session_id "$TMPFILE")
+    plan_result=$(get_result_text "$TMPFILE")
 
-  if [ -z "$plan_result" ]; then
-    echo "[ralph_json] Warning: Could not extract plan result. Raw output (first 20 lines):"
-    head -20 "$TMPFILE"
-  fi
+    if [ -z "$plan_result" ]; then
+      echo "[ralph_json] Warning: Could not extract plan result. Raw output (first 20 lines):"
+      head -20 "$TMPFILE"
+    fi
 
-  # Check if planning phase produced a stop code
-  if [ -n "$plan_result" ]; then
-    handle_item_result "$plan_result" "$item_index" "planning phase" "$i" && continue
-  fi
+    # Check if planning phase produced a stop code
+    if [ -n "$plan_result" ]; then
+      handle_item_result "$plan_result" "$item_index" "planning phase" "$i" && continue
+    fi
 
-  if [ -z "$session_id" ] || [ "$session_id" = "null" ]; then
-    echo "[ralph_json] Error: Failed to get session ID from planning phase."
-    echo "[ralph_json] Marking item $item_index as error."
-    update_item_status "$item_index" "error"
-    set_item_error "$item_index" "Failed to get session ID from planning phase"
-    continue
+    if [ -z "$session_id" ] || [ "$session_id" = "null" ]; then
+      echo "[ralph_json] Error: Failed to get session ID from planning phase."
+      echo "[ralph_json] Marking item $item_index as error."
+      update_item_status "$item_index" "error"
+      set_item_error "$item_index" "Failed to get session ID from planning phase"
+      continue
+    fi
   fi
 
   # Phase 2: Execute (auto-accept tools, resume plan session, streamed)
   echo ""
-  echo "--- Execution phase (session: $session_id) ---"
-  run_claude_streaming "$TMPFILE" \
-    -p "Execute the plan you just created. Implement the changes, then provide your stop code and any output." \
-    --resume "$session_id" \
-    --allowedTools "$ALLOWED_TOOLS"
+  if [ "$NO_PLAN" -eq 0 ]; then
+    echo "--- Execution phase (session: $session_id) ---"
+    run_claude_streaming "$TMPFILE" \
+      -p "Execute the plan you just created. Implement the changes, then provide your stop code and any output." \
+      --resume "$session_id" \
+      --allowedTools "$ALLOWED_TOOLS"
+  else
+    echo "--- Execution phase (no plan) ---"
+    run_claude_streaming "$TMPFILE" \
+      -p "$ITEM_PROMPT" \
+      --allowedTools "$ALLOWED_TOOLS"
+    session_id=$(get_session_id "$TMPFILE")
+  fi
 
   exec_result=$(get_result_text "$TMPFILE")
 
