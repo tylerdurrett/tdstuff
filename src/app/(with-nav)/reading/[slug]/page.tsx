@@ -5,6 +5,7 @@ import { getReadingListItemBySlug } from '@/models/readingList'
 import Image from 'next/image'
 import { urlFor } from '@/sanity/lib/image'
 import { ExternalLinkIcon } from 'lucide-react'
+import { Badge } from '@/components/ui/badge'
 import '../../blog/prose.css'
 
 type Props = {
@@ -107,6 +108,23 @@ export default async function ReadingListItem({ params }: Props) {
                 added <span className="sm:hidden">{formattedDateShort}</span>
                 <span className="hidden sm:inline">{formattedDateLong}</span>
               </span>
+              {item.topics && item.topics.length > 0 && (
+                <>
+                  <span
+                    aria-hidden="true"
+                    className="mx-2 text-muted-foreground/60 hidden sm:inline"
+                  >
+                    |
+                  </span>
+                  <div className="flex items-center gap-1.5 flex-wrap">
+                    {item.topics.map((topic) => (
+                      <Badge key={topic._id} variant="secondary">
+                        {topic.title}
+                      </Badge>
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
           </header>
         </Container>

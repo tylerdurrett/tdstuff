@@ -247,6 +247,13 @@ export type ReadingList = {
     _key: string
     [internalGroqTypeReferenceTo]?: 'category'
   }>
+  topics?: Array<{
+    _ref: string
+    _type: 'reference'
+    _weak?: boolean
+    _key: string
+    [internalGroqTypeReferenceTo]?: 'topic'
+  }>
   featuredImage?: {
     asset?: {
       _ref: string
@@ -275,13 +282,6 @@ export type ReadingList = {
   discussionShortSummary?: string
   discussionGist?: string
   discussionTitle?: string
-  topics?: Array<{
-    _ref: string
-    _type: 'reference'
-    _weak?: boolean
-    _key: string
-    [internalGroqTypeReferenceTo]?: 'topic'
-  }>
   body?: BlockContent
 }
 
@@ -1000,7 +1000,7 @@ export type ReadingListItemsQueryResult = Array<{
 // Query: count(*[    _type == "readingList"    && defined(slug.current)    && ($category == "" || $category in categories[]->slug.current)  ])
 export type CountQueryResult = number
 // Variable: readingListItemQuery
-// Query: *[_type == "readingList" && slug.current == $slug][0]{      _id,       title,       originalTitle,      slug,       originalUrl,      discussionUrl,      categories[]->{title, slug},       savedAt,       featuredImage{..., "caption": caption},      detailedSummary,      keyPoints,      conclusion,      shortSummary,      gist,      newTitle,      discussionDetailedSummary,      keyAgreeingViewpoints,      keyOpposingViewpoints,      sentiment,      discussionShortSummary,      discussionGist,      discussionTitle,      body[]{        ...,        _type == "mux.video" => {          asset->        }      }    }
+// Query: *[_type == "readingList" && slug.current == $slug][0]{      _id,       title,       originalTitle,      slug,       originalUrl,      discussionUrl,      categories[]->{title, slug},      topics[]->{_id, title, slug},      savedAt,       featuredImage{..., "caption": caption},      detailedSummary,      keyPoints,      conclusion,      shortSummary,      gist,      newTitle,      discussionDetailedSummary,      keyAgreeingViewpoints,      keyOpposingViewpoints,      sentiment,      discussionShortSummary,      discussionGist,      discussionTitle,      body[]{        ...,        _type == "mux.video" => {          asset->        }      }    }
 export type ReadingListItemQueryResult = {
   _id: string
   title: string
@@ -1009,6 +1009,11 @@ export type ReadingListItemQueryResult = {
   originalUrl: string
   discussionUrl: string | null
   categories: Array<{
+    title: string
+    slug: Slug
+  }> | null
+  topics: Array<{
+    _id: string
     title: string
     slug: Slug
   }> | null
@@ -1576,7 +1581,7 @@ declare module '@sanity/client' {
     '*[\n    _type == "category"\n    && count(*[_type == "readingList" && references(^._id)]) >= 5\n  ]|order(title asc){\n    _id,\n    title,\n    slug,\n    description\n  }': CategoriesQueryResult
     '*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n  ]|order(savedAt desc)[$start...$end]{\n    _id,\n    title,\n    slug,\n    originalUrl,\n    savedAt,\n    gist,\n    shortSummary,\n    keyPoints,\n    sentiment,\n    keyAgreeingViewpoints,\n    keyOpposingViewpoints,\n    categories[]->{title, slug},\n    featuredImage\n  }': ReadingListItemsQueryResult
     'count(*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n  ])': CountQueryResult
-    '*[_type == "readingList" && slug.current == $slug][0]{\n      _id, \n      title, \n      originalTitle,\n      slug, \n      originalUrl,\n      discussionUrl,\n      categories[]->{title, slug}, \n      savedAt, \n      featuredImage{..., "caption": caption},\n      detailedSummary,\n      keyPoints,\n      conclusion,\n      shortSummary,\n      gist,\n      newTitle,\n      discussionDetailedSummary,\n      keyAgreeingViewpoints,\n      keyOpposingViewpoints,\n      sentiment,\n      discussionShortSummary,\n      discussionGist,\n      discussionTitle,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ReadingListItemQueryResult
+    '*[_type == "readingList" && slug.current == $slug][0]{\n      _id, \n      title, \n      originalTitle,\n      slug, \n      originalUrl,\n      discussionUrl,\n      categories[]->{title, slug},\n      topics[]->{_id, title, slug},\n      savedAt, \n      featuredImage{..., "caption": caption},\n      detailedSummary,\n      keyPoints,\n      conclusion,\n      shortSummary,\n      gist,\n      newTitle,\n      discussionDetailedSummary,\n      keyAgreeingViewpoints,\n      keyOpposingViewpoints,\n      sentiment,\n      discussionShortSummary,\n      discussionGist,\n      discussionTitle,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ReadingListItemQueryResult
     '*[\n    _type == "thing"\n  ]|order(_createdAt desc)[0...$limit]{\n    _id,\n    title,\n    slug,\n    description,\n    featuredImage{..., "caption": caption, "alt": alt},\n    featuredVideo{..., asset->},\n    featuredVideoThumb{..., asset->},\n    images[]{\n      ...,\n      "caption": caption,\n      "alt": alt\n    },\n    videos[]{\n      file{..., asset->},\n      title,\n      alt,\n      caption,\n      poster{..., "alt": alt},\n      autoplay,\n      loop,\n      muted\n    },\n    isAiGenerated,\n    body[]{\n      ...,\n      _type == "mux.video" => {\n        asset->\n      }\n    }\n  }': ThingsQueryResult
     '*[_type == "thing" && slug.current == $slug][0]{\n      _id,\n      title,\n      slug,\n      description,\n      featuredImage{..., "caption": caption, "alt": alt},\n      featuredVideo{..., asset->},\n      featuredVideoThumb{..., asset->},\n      images[]{\n        ...,\n        "caption": caption,\n        "alt": alt\n      },\n      videos[]{\n        file{..., asset->},\n        title,\n        alt,\n        caption,\n        poster{..., "alt": alt},\n        autoplay,\n        loop,\n        muted\n      },\n      isAiGenerated,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ThingQueryResult
   }
