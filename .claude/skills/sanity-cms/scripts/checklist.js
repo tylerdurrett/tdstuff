@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Generate a processable checklist of readingList items matching filter criteria.
- * Outputs a JSON file where each item has title, _id, currentCategories, and status.
+ * Outputs a JSON file where each item has title, _id, currentCategories, currentTopics, and status.
  *
  * Usage:
  *   node checklist.js --output /path/to/checklist.json
@@ -9,6 +9,7 @@
  *   node checklist.js --categories "research-and-understanding" --output checklist.json
  *   node checklist.js --topic "ai-coding-agents" --output checklist.json
  *   node checklist.js --uncategorized --output checklist.json
+ *   node checklist.js --no-topics --output checklist.json
  *   node checklist.js --exclude-categories "..." --output checklist.json --dry-run
  */
 import fs from 'fs';
@@ -122,7 +123,9 @@ async function main() {
     );
   }
 
-  if (args.topic) {
+  if (args['no-topics'] === 'true') {
+    filters.push('(!defined(topics) || count(topics) == 0)');
+  } else if (args.topic) {
     const topicId = await resolveTopicId(client, args.topic);
     params.topicId = topicId;
     filters.push('defined(topics) && count(topics[_ref == $topicId]) > 0');
@@ -142,6 +145,7 @@ async function main() {
     title: item.title,
     _id: item._id,
     currentCategories: (item.currentCategories || []).map((c) => c.title),
+    currentTopics: (item.currentTopics || []).map((t) => t.title),
     status: 'unprocessed',
   }));
 

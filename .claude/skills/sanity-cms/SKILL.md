@@ -119,6 +119,11 @@ node .claude/skills/sanity-cms/scripts/checklist.js \
   --uncategorized \
   --output /path/to/checklist.json
 
+# Items with NO topics assigned
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --no-topics \
+  --output /path/to/checklist.json
+
 # All published items (no filter)
 node .claude/skills/sanity-cms/scripts/checklist.js \
   --output /path/to/checklist.json
@@ -128,7 +133,7 @@ node .claude/skills/sanity-cms/scripts/checklist.js \
   --exclude-categories "damage-control" --output checklist.json --dry-run
 ```
 
-**Args:** `--output` (required), `--exclude-categories` (optional, comma-separated slugs), `--categories` (optional, comma-separated slugs), `--topic` (optional, single slug), `--uncategorized` (optional flag), `--dry-run`
+**Args:** `--output` (required), `--exclude-categories` (optional, comma-separated slugs), `--categories` (optional, comma-separated slugs), `--topic` (optional, single slug), `--uncategorized` (optional flag), `--no-topics` (optional flag), `--dry-run`
 
 `--categories` and `--exclude-categories` are mutually exclusive. `--topic` can be combined with either.
 
@@ -139,6 +144,7 @@ Output file format:
     "title": "Article Title",
     "_id": "readingList-slug-timestamp",
     "currentCategories": ["Category Name"],
+    "currentTopics": ["Topic Name"],
     "status": "unprocessed"
   }
 ]
