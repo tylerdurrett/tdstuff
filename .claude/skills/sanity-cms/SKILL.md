@@ -37,9 +37,17 @@ node .claude/skills/sanity-cms/scripts/query.js \
 node .claude/skills/sanity-cms/scripts/query.js \
   --query '*[_type == "post" && slug.current == $slug][0]{_id, title}' \
   --params '{"slug": "my-post"}'
+
+# Query from file (avoids shell escaping issues with !, &&, etc.)
+echo '*[_type == "post" && !(_id in path("drafts.**"))]{_id, title}' > /tmp/query.groq
+node .claude/skills/sanity-cms/scripts/query.js --file /tmp/query.groq
+
+# Auto-filter draft documents (no need for ! in the query)
+node .claude/skills/sanity-cms/scripts/query.js \
+  --query '*[_type == "post"]{_id, title}' --no-drafts
 ```
 
-**Args:** `--query` (required), `--params` (optional JSON)
+**Args:** `--query` or `--file` (one required), `--params` (optional JSON), `--no-drafts` (optional, filters out draft documents from array results)
 
 ### get.js — Get Document by ID
 
@@ -263,9 +271,24 @@ For full field definitions, Portable Text construction examples, GROQ patterns, 
 - **Images**: Upload first with upload.js, then use the returned `ref` in the image field's `asset` property
 - **Block content**: Portable Text format — see schema reference for JSON structure
 
-## Shell Gotchas
+## Avoiding `!` in GROQ Queries
 
-- **`!` in GROQ queries**: Zsh treats `!` as history expansion even inside double quotes, so queries containing `!(_id in path("drafts.**"))` will fail with a parse error. **Workaround**: Omit the `!` filter from the GROQ query and filter drafts out in post-processing instead (e.g., pipe to `python3` or `jq` and exclude items where `_id` starts with `"drafts."`).
+Zsh treats `!` as history expansion, which breaks GROQ queries containing negation. **Never use `!` in inline `--query` strings.** Instead:
+
+1. **Filtering drafts**: Use `--no-drafts` flag instead of `!(_id in path("drafts.**"))`
+2. **GROQ negation**: Use `defined(x) == false` instead of `!defined(x)`
+3. **Complex queries**: Use `--file` to read the query from a file, bypassing shell escaping entirely
+
+```bash
+# BAD — will break in zsh
+--query '*[_type == "post" && !defined(topics)]'
+
+# GOOD — inline-safe alternative
+--query '*[_type == "post" && defined(topics) == false]' --no-drafts
+
+# GOOD — file-based for complex queries with unavoidable !
+node .claude/skills/sanity-cms/scripts/query.js --file /tmp/query.groq
+```
 
 ## Limitations
 
