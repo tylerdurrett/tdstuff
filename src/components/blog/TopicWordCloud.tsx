@@ -35,6 +35,9 @@ export function TopicWordCloud({
     undefined
   )
   const [ready, setReady] = useState(false)
+  const [effMax, setEffMax] = useState(maxFontSize)
+  const [effGap, setEffGap] = useState(gap)
+  const [origin, setOrigin] = useState<string>('center center')
 
   const counts = topics.map((t) => t.count)
   const minCount = Math.min(...counts)
@@ -50,6 +53,21 @@ export function TopicWordCloud({
       const cw = container.clientWidth
       const ch = container.clientHeight
       if (cw === 0 || ch === 0) return
+
+      // Scale maxFontSize and gap for narrow containers
+      const responsiveMax = Math.min(maxFontSize, Math.max(minFontSize, cw * 0.1))
+      const responsiveGap = cw < 600 ? gap * (cw / 600) : gap
+
+      // Apply responsive font sizes to DOM before measurement
+      inner.querySelectorAll<HTMLElement>('a').forEach((link, i) => {
+        const topic = topics[i]
+        if (!topic) return
+        const t =
+          countRange > 0 ? (topic.count - minCount) / countRange : 1
+        link.style.fontSize = `${minFontSize + t * (responsiveMax - minFontSize)}px`
+      })
+      inner.style.columnGap = `${responsiveGap}rem`
+      inner.style.rowGap = `${responsiveGap * 0.35}rem`
 
       const targetAspect = cw / ch
 
@@ -83,10 +101,14 @@ export function TopicWordCloud({
       const finalW = inner.scrollWidth
       const finalH = inner.scrollHeight
 
-      const s = Math.min(cw / finalW, ch / finalH) * 0.95
+      const margin = cw < 768 ? 0.88 : 0.95
+      const s = Math.min(cw / finalW, ch / finalH) * margin
 
       setOptimalWidth(bestWidth)
       setScale(s)
+      setEffMax(responsiveMax)
+      setEffGap(responsiveGap)
+      setOrigin(cw < 768 ? 'top center' : 'center center')
       setReady(true)
     }
 
@@ -95,29 +117,29 @@ export function TopicWordCloud({
     const observer = new ResizeObserver(fit)
     observer.observe(container)
     return () => observer.disconnect()
-  }, [topics])
+  }, [topics, minFontSize, maxFontSize, gap, minCount, countRange])
 
   return (
     <div
       ref={containerRef}
-      className={`flex min-h-full w-full items-center justify-center overflow-y-auto ${className ?? ''}`}
+      className={`flex min-h-full w-full items-start justify-center overflow-x-hidden overflow-y-auto pt-8 md:items-center md:pt-0 ${className ?? ''}`}
     >
       <div
         ref={innerRef}
         className="flex flex-wrap items-center justify-center py-8"
         style={{
-          columnGap: `${gap}rem`,
-          rowGap: `${gap * 0.35}rem`,
+          columnGap: `${effGap}rem`,
+          rowGap: `${effGap * 0.35}rem`,
           width: optimalWidth,
           transform: `scale(${scale})`,
-          transformOrigin: 'center center',
+          transformOrigin: origin,
           opacity: ready ? 1 : 0,
-          transition: 'opacity 400ms ease',
+          transition: 'opacity 200ms ease',
         }}
       >
         {topics.map((topic) => {
           const t = countRange > 0 ? (topic.count - minCount) / countRange : 1
-          const fontSize = minFontSize + t * (maxFontSize - minFontSize)
+          const fontSize = minFontSize + t * (effMax - minFontSize)
           const opacity = 0.4 + t * 0.6
 
           return (
