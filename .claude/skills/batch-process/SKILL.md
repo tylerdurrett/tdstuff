@@ -63,37 +63,25 @@ Ask the user to confirm before launching the batch process.
 
 ### Step 6: Launch ralph_json.sh
 
+Always use `--no-plan`. Default max-iterations: 30 (override with user-specified value). Optional: `--stop-on-manual-test` if user requests it.
+
+**Small batches (≤5 items):** Run in foreground so the user sees streaming output directly.
+
+Use the Bash tool with `timeout: 600000` (10 minutes):
 ```bash
-nohup ./ralph_json.sh \
-  _tasks/_in-progress/YYYY-MM-DD_<task-name>/checklist.json \
-  <instruction-file-path> \
-  <max-iterations> \
-  "" \
-  <optional-flags> \
-  --no-plan \
-  > _tasks/_in-progress/YYYY-MM-DD_<task-name>/ralph.log 2>&1 &
+./ralph_json.sh <checklist> <instruction> --no-plan
+```
+When complete, summarize results (complete/error/needs_human_test counts).
+
+**Larger batches (>5 items):** Run via the Bash tool with `run_in_background: true`. This auto-notifies the user when the process finishes.
+
+```bash
+./ralph_json.sh <checklist> <instruction> --no-plan 2>&1 | tee <task-dir>/ralph.log
 ```
 
-Default max-iterations: 30 (override with user-specified value).
-Optional flags: `--stop-on-manual-test` if user requests it.
-Always uses `--no-plan`.
+Tell the user: "Batch process started for N items. You'll be notified when it completes. You can continue working in the meantime."
 
-After launching, report:
-- The background PID
-- The log file path
-- Monitoring commands:
-  ```bash
-  # Watch live output
-  tail -f _tasks/_in-progress/YYYY-MM-DD_<task-name>/ralph.log
-
-  # Check remaining items
-  jq '[.[] | select(.status == "unprocessed")] | length' \
-    _tasks/_in-progress/YYYY-MM-DD_<task-name>/checklist.json
-
-  # View summary
-  jq 'group_by(.status) | map({status: .[0].status, count: length})' \
-    _tasks/_in-progress/YYYY-MM-DD_<task-name>/checklist.json
-  ```
+Mention the log file and checklist paths casually in case they want to check progress, but don't lead with monitoring commands.
 
 ## Options Reference
 
