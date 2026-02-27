@@ -2192,257 +2192,257 @@
   {
     "title": "Malicious Workflow Stole npm Token via Shared Repo; Lockdown Now, OIDC Next",
     "_id": "readingList-malicious-workflow-stole-npm-token-via-shared-repo-lockdown-now-oidc-next-1758146529390",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DeepMind and OpenAI Both Claim ICPC WF 2025 Gold-Level AI Performance",
     "_id": "readingList-deepmind-and-openai-both-claim-icpc-wf-2025-gold-level-ai-performance-1758144110558",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "U.S. Consortium Poised to Take 80% Control of TikTok’s U.S. Arm",
     "_id": "readingList-us-consortium-poised-to-take-80-control-of-tiktoks-us-arm-1758143901788",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Waiting for Motivation: Engineer Action with Small Steps and Consistency",
     "_id": "readingList-stop-waiting-for-motivation-engineer-action-with-small-steps-and-consistency-1758127767172",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Procedural Islands III: Multi-Scale Noise and Topological Mountains for Final Elevation",
     "_id": "readingList-procedural-islands-iii-multi-scale-noise-and-topological-mountains-for-final-elevation-1758127076331",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Toward a Slow, Humane Social Network",
     "_id": "readingList-toward-a-slow-humane-social-network-1758127076330",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Evolving English Instructions Sets New ARC SoTA and Points to RL for AGI",
     "_id": "readingList-evolving-english-instructions-sets-new-arc-sota-and-points-to-rl-for-agi-1758119750454",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Prompted to Perform: A 22% Lift for GPT-5-mini on Tau² Telecom",
     "_id": "readingList-prompted-to-perform-a-22-lift-for-gpt-5-mini-on-tau2-telecom-1758119629974",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Against Work-Worship: A Case for the Four-Hour Day",
     "_id": "readingList-against-work-worship-a-case-for-the-four-hour-day-1758109955970",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Alibaba Pingtouge AI Chip Rivals Nvidia H20, Wins Major China Unicom Order",
     "_id": "readingList-alibaba-pingtouge-ai-chip-rivals-nvidia-h20-wins-major-china-unicom-order-1758109703287",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Terraform State Is a Graph, Not a File",
     "_id": "readingList-terraform-state-is-a-graph-not-a-file-1758108693163",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Obsidian $5k Bounty: Notion API Importer with Databases→Bases Conversion",
     "_id": "readingList-obsidian-5k-bounty-notion-api-importer-with-databasesbases-conversion-1758108580039",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "NPM’s Supply Chain Is Still Wide Open—and Microsoft Isn’t Fixing It",
     "_id": "readingList-npms-supply-chain-is-still-wide-openand-microsoft-isnt-fixing-it-1758108579768",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Shai-Hulud: Self‑Spreading npm Backdoor Hits tinycolor and 40+ Packages",
     "_id": "readingList-selfpropagating-npm-attack-tinycolor-and-40-packages-backdoored-via-github-actions-1758033226442",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft steers VS Code to Claude 4, signaling an Anthropic tilt",
     "_id": "readingList-microsoft-steers-vs-code-to-claude-4-signaling-an-anthropic-tilt-1758038560720",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ScrollyVideo.js: Scroll-Driven Video with Smart Fallbacks Across Frameworks",
     "_id": "readingList-scrollyvideojs-scroll-driven-video-with-smart-fallbacks-across-frameworks-1758036569573",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When to Use 'Your' vs 'My' in UI (and When to Drop Both)",
     "_id": "readingList-when-to-use-your-vs-my-in-ui-and-when-to-drop-both-1758033475069",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Generative AI Shrinks Junior Hiring While Senior Roles Grow",
     "_id": "readingList-generative-ai-shrinks-junior-hiring-while-senior-roles-grow-1758033345637",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT‑5-Codex Lands in Codex Tools, API Coming Soon, With Big Push on Code Review",
     "_id": "readingList-gpt5-codex-lands-in-codex-tools-api-coming-soon-with-big-push-on-code-review-1757986979492",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Picking React by Default: Evaluate Better-Fit Frontend Models",
     "_id": "readingList-stop-picking-react-by-default-evaluate-better-fit-frontend-models-1757976865879",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Massive Attack Uses Live Facial Recognition to Expose Surveillance Culture",
     "_id": "readingList-massive-attack-uses-live-facial-recognition-to-expose-surveillance-culture-1757976548912",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Build a Production-Ready AI Trend Analyzer with FastAPI, Pydantic‑AI, and MCP",
     "_id": "readingList-build-a-production-ready-ai-trend-analyzer-with-fastapi-pydanticai-and-mcp-1757973004381",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How the World Uses ChatGPT: Non‑Work Growth, Decision Support, and Writing at Work",
     "_id": "readingList-how-the-world-uses-chatgpt-nonwork-growth-decision-support-and-writing-at-work-1757972983409",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When Code Gets Cheap: Value Shifts to Judgment and Systems",
     "_id": "readingList-when-code-gets-cheap-value-shifts-to-judgment-and-systems-1757963666017",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT-5-Codex: Agentic Coding with Layered Safety",
     "_id": "readingList-openai-details-safety-addendum-for-gpt-5-codex-an-agentic-coding-model-1757963365209",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Real-Time Chatbots Now Repeat False News 35% of the Time",
     "_id": "readingList-real-time-chatbots-now-repeat-false-news-35-of-the-time-1757903584137",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLMs Don’t Code—They Compile Your Prompts",
     "_id": "readingList-llms-dont-codethey-compile-your-prompts-1757769692494",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Inside Google’s Hidden AI Rater Workforce: Speed Over Safety",
     "_id": "readingList-inside-googles-hidden-ai-rater-workforce-speed-over-safety-1757769495615",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "FFglitch Gallery: A Curated Showcase of Datamoshing Works",
     "_id": "readingList-ffglitch-gallery-a-curated-showcase-of-datamoshing-works-1757732524355",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Grove: A Five-Week Launchpad for Pre-Idea AI Founders",
     "_id": "readingList-openai-grove-a-five-week-launchpad-for-pre-idea-ai-founders-1757698884766",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Deep Orchestrator: A Simple MCP Loop That Makes Deep Research Work",
     "_id": "readingList-deep-orchestrator-a-simple-mcp-loop-that-makes-deep-research-work-1757699031797",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Hard Leetcode, Easy with Constraint Solvers",
     "_id": "readingList-hard-leetcode-easy-with-constraint-solvers-1757699031796",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Qwen3-Next: Hybrid Attention + Ultra-Sparse MoE for 10x Faster Long-Context LLMs",
     "_id": "readingList-qwen3-next-hybrid-attention-ultra-sparse-moe-for-10x-faster-long-context-llms-1757677201731",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ApeRAG: Production-Ready Multimodal GraphRAG with Agents and MCP",
     "_id": "readingList-aperag-production-ready-multimodal-graphrag-with-agents-and-mcp-1757638832908",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Aligning the Aligners: A Satirical Roast of the AI Safety Industry",
     "_id": "readingList-aligning-the-aligners-a-satirical-roast-of-the-ai-safety-industry-1757618495562",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Cards, Cameras, and Workarounds: How NYC Teens Are Adapting to the School Phone Ban",
     "_id": "readingList-cards-cameras-and-workarounds-how-nyc-teens-are-adapting-to-the-school-phone-ban-1757618360930",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Async Programming as a Workflow: Specify, Automate, Review",
     "_id": "readingList-async-programming-as-a-workflow-specify-automate-review-1757611753184",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Spiral: A Machine-Scale Database Built on Vortex for the AI Era",
     "_id": "readingList-spiral-a-machine-first-database-for-ai-scale-data-1757607553166",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Evolving Melodies: Coding Culture’s Darwinian Patterns",
     "_id": "readingList-evolving-melodies-coding-cultures-darwinian-patterns-1757607081572",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How TikTok’s 60-Second Model Rewired Culture and Attention",
     "_id": "readingList-how-tiktoks-60-second-model-rewired-culture-and-attention-1757528683881",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "You Can’t Outsource Thinking: Memory and Depth Are Non‑Optional",
     "_id": "readingList-you-cant-outsource-thinking-memory-and-depth-are-nonoptional-1757520744370",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Flame Fractals in GLSL: Chaos-Game Splatting, Transforms, and Simple Post",
     "_id": "readingList-flame-fractals-in-glsl-chaos-game-splatting-transforms-and-simple-post-1757510430645",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Knowledge Without Memory: Why LLMs Guess and Humans Don’t",
     "_id": "readingList-knowledge-without-memory-why-llms-guess-and-humans-dont-1757510287225",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Live LLM Dialogue in GameCube Animal Crossing via a RAM Mailbox Hack",
     "_id": "readingList-live-llm-dialogue-in-gamecube-animal-crossing-via-a-ram-mailbox-hack-1757510057332",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "NAEP: US Seniors Hit Historic Lows in Reading and Math as Gaps Widen Beyond COVID",
     "_id": "readingList-naep-us-seniors-hit-historic-lows-in-reading-and-math-as-gaps-widen-beyond-covid-1757456487078",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apple Launches iPhone 17 with Smarter Cameras, Brighter ProMotion Display, and A19 Power",
     "_id": "readingList-apple-launches-iphone-17-with-smarter-cameras-brighter-promotion-display-and-a19-power-1757454016935",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ICE Expands Stingray Use As AI Policing Stumbles And Global Surveillance Grows",
     "_id": "readingList-ice-expands-stingray-use-as-ai-policing-stumbles-and-global-surveillance-grows-1757453913136",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Judge Pauses Anthropic’s $1.5B AI Book Deal, Demands Clarity",
     "_id": "readingList-judge-pauses-anthropics-15b-ai-book-deal-demands-clarity-1757453913137",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Liquid Glass on the Web with SVG Displacement Maps",
     "_id": "readingList-liquid-glass-on-the-web-with-svg-displacement-maps-1757439146457",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Now Creates and Edits Spreadsheets, Docs, Slides, and PDFs",
     "_id": "readingList-claude-now-creates-and-edits-spreadsheets-docs-slides-and-pdfs-1757438839771",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI as a Normal Technology, Not an Apocalypse",
     "_id": "readingList-ai-as-a-normal-technology-not-an-apocalypse-1757376116446",
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft Joins World Nuclear Association to Scale Nuclear for the Digital Economy",
