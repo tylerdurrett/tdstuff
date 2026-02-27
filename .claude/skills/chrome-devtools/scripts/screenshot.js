@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Take a screenshot
- * Usage: node screenshot.js --output screenshot.png [--url https://example.com] [--full-page true] [--selector .element] [--max-size 5] [--no-compress]
+ * Usage: node screenshot.js --output screenshot.png [--url https://example.com] [--full-page true] [--selector .element] [--max-size 5] [--no-compress] [--width 393] [--height 852] [--wait 2000]
  * Supports both CSS and XPath selectors:
  *   - CSS: node screenshot.js --selector ".main-content" --output page.png
  *   - XPath: node screenshot.js --selector "//div[@class='main-content']" --output page.png
@@ -128,11 +128,24 @@ async function screenshot() {
 
     const page = await getPage(browser);
 
+    // Set viewport if --width or --height provided
+    if (args.width || args.height) {
+      await page.setViewport({
+        width: args.width ? parseInt(args.width) : 1920,
+        height: args.height ? parseInt(args.height) : 1080,
+      });
+    }
+
     // Navigate if URL provided
     if (args.url) {
       await page.goto(args.url, {
         waitUntil: args['wait-until'] || 'networkidle2',
       });
+    }
+
+    // Wait if --wait provided (ms)
+    if (args.wait) {
+      await new Promise((r) => setTimeout(r, parseInt(args.wait)));
     }
 
     const screenshotOptions = {
@@ -160,11 +173,13 @@ async function screenshot() {
       buffer = await page.screenshot(screenshotOptions);
     }
 
+    const viewport = page.viewport();
     const result = {
       success: true,
       output: path.resolve(args.output),
       size: buffer.length,
       url: page.url(),
+      viewport: viewport ? { width: viewport.width, height: viewport.height } : undefined,
     };
 
     // Compress image if needed (unless --no-compress flag is set)
