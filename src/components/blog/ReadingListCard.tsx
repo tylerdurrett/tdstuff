@@ -35,12 +35,13 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
           </div>
         )}
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="text-sm text-muted-foreground">
-              {item.categories?.map((cat) => cat.title).join(', ') ||
-                'No categories'}
-            </span>
-          </div>
+          {item.categories && item.categories.filter(Boolean).length > 0 && (
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-sm text-muted-foreground">
+                {item.categories.filter(Boolean).map((cat) => cat.title).join(', ')}
+              </span>
+            </div>
+          )}
           <h2 className="text-2xl sm:text-3xl font-bold mb-2 leading-tight">
             {item.title}
           </h2>
@@ -59,7 +60,7 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
             )}
             {item.topics &&
               item.topics.length > 0 &&
-              item.topics.map((topic) => (
+              item.topics.filter(Boolean).map((topic) => (
                 <Badge key={topic._id} variant="secondary" asChild>
                   <Link
                     href={`/reading?topic=${topic.slug.current}`}
