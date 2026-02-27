@@ -21,24 +21,10 @@ const BLOCKS: BlockConfig[] = [
     breakHints: [7], // READING|LIST
   },
   {
-    text: 'CREATIVECODING',
-    label: 'Creative Coding',
-    href: '/creative-coding/resources',
-    videoPlaybackIds: [
-      // '45Fj9902Qepq02JDMAcXojiXF7ilTZb1NxjFmkKafppqA',
-      'LuwmQgGmPIcLLTc01tTgUX65Miefb5SPhtUVEYibZblk',
-    ],
-    breakHints: [8], // CREATIVE|CODING
-  },
-  {
-    text: 'AGENTICSYSTEMS',
-    label: 'Agentic Systems',
-    href: '/agentic-systems/resources',
-    videoPlaybackIds: [
-      // 'M8AbkflI02D7FIHsz8DjXheLOPU8IhWjXepzG00httyC4',
-      'vSr45xWBsnpKHWs5hV2rL2O2OpxwJrxLDmn301vlgNFs',
-    ],
-    breakHints: [7], // AGENTIC|SYSTEMS
+    text: 'TOPICS',
+    label: 'Topics',
+    href: '/reading/topics',
+    videoPlaybackIds: ['LuwmQgGmPIcLLTc01tTgUX65Miefb5SPhtUVEYibZblk'],
   },
 ]
 
@@ -145,7 +131,7 @@ export default function HomeClient() {
           href={block.href}
           videoPlaybackId={selectedIds[i]}
           onReady={handleBlockReady}
-          className="landscape:w-1/3 landscape:h-full portrait:w-full portrait:h-1/3"
+          className="landscape:w-1/2 landscape:h-full portrait:w-full portrait:h-1/2"
           breakHints={block.breakHints}
         />
       ))}
