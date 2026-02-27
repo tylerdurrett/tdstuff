@@ -6,8 +6,7 @@ import { HomeIcon } from 'lucide-react'
 
 const navItems = [
   { label: 'READING LIST', href: '/reading' },
-  { label: 'CREATIVE CODING', href: '/creative-coding/resources' },
-  { label: 'AGENTIC SYSTEMS', href: '/agentic-systems/resources' },
+  { label: 'TOPICS', href: '/reading/topics' },
 ]
 
 export function TopNav() {
@@ -24,7 +23,16 @@ export function TopNav() {
       </Link>
       <div className="flex">
         {navItems.map((item) => {
-          const isActive = pathname.startsWith(item.href)
+          const matches =
+            pathname === item.href || pathname.startsWith(item.href + '/')
+          const hasMoreSpecificMatch = navItems.some(
+            (other) =>
+              other.href !== item.href &&
+              other.href.startsWith(item.href) &&
+              (pathname === other.href ||
+                pathname.startsWith(other.href + '/')),
+          )
+          const isActive = matches && !hasMoreSpecificMatch
 
           return (
             <Link
