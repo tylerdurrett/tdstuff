@@ -94,6 +94,56 @@ node .claude/skills/sanity-cms/scripts/upload.js --file /path/to/doc.pdf --type 
 
 Returns a `ref` object ready to embed in mutations.
 
+### checklist.js — Generate Processable Checklists
+
+Generates a JSON checklist of readingList items matching filter criteria. Useful for batch processing tasks like recategorization, topic assignment, or auditing.
+
+```bash
+# Items NOT in specific categories (by slug)
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --exclude-categories "damage-control,programming,creative-code" \
+  --output /path/to/checklist.json
+
+# Items IN specific categories only
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --categories "research-and-understanding,market-forces" \
+  --output /path/to/checklist.json
+
+# Items with a specific topic
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --topic "ai-coding-agents" \
+  --output /path/to/checklist.json
+
+# Items with NO categories assigned
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --uncategorized \
+  --output /path/to/checklist.json
+
+# All published items (no filter)
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --output /path/to/checklist.json
+
+# Preview without writing
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --exclude-categories "damage-control" --output checklist.json --dry-run
+```
+
+**Args:** `--output` (required), `--exclude-categories` (optional, comma-separated slugs), `--categories` (optional, comma-separated slugs), `--topic` (optional, single slug), `--uncategorized` (optional flag), `--dry-run`
+
+`--categories` and `--exclude-categories` are mutually exclusive. `--topic` can be combined with either.
+
+Output file format:
+```json
+[
+  {
+    "title": "Article Title",
+    "_id": "readingList-slug-timestamp",
+    "currentCategories": ["Category Name"],
+    "status": "unprocessed"
+  }
+]
+```
+
 ### slugify.js (lib) — Generate Slugs
 
 A utility in `scripts/lib/` for generating Sanity-compatible slugs. **Always use this utility when creating or updating slug values** — never hand-write slug strings.
