@@ -65,18 +65,20 @@ Ask the user to confirm before launching the batch process.
 
 Always use `--no-plan`. Default max-iterations: 30 (override with user-specified value). Optional: `--stop-on-manual-test` if user requests it.
 
+**IMPORTANT — Nested session fix:** `ralph_json.sh` spawns `claude` subprocesses. When launched from inside Claude Code, the `CLAUDECODE` env var blocks nesting. Always prefix the command with `unset CLAUDECODE &&` to bypass this.
+
 **Small batches (≤5 items):** Run in foreground so the user sees streaming output directly.
 
 Use the Bash tool with `timeout: 600000` (10 minutes):
 ```bash
-./ralph_json.sh <checklist> <instruction> --no-plan
+unset CLAUDECODE && ./ralph_json.sh <checklist> <instruction> --no-plan
 ```
 When complete, summarize results (complete/error/needs_human_test counts).
 
 **Larger batches (>5 items):** Run via the Bash tool with `run_in_background: true`. This auto-notifies the user when the process finishes.
 
 ```bash
-./ralph_json.sh <checklist> <instruction> --no-plan 2>&1 | tee <task-dir>/ralph.log
+unset CLAUDECODE && ./ralph_json.sh <checklist> <instruction> --no-plan 2>&1 | tee <task-dir>/ralph.log
 ```
 
 Tell the user: "Batch process started for N items. You'll be notified when it completes. You can continue working in the meantime."
