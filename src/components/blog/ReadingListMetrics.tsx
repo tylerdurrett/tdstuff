@@ -77,14 +77,14 @@ export function ReadingListMetrics({
         <MetricPill
           icon={<SentimentDot score={sentimentArticle} />}
           label={`Article: ${getSentimentLabel(sentimentArticle)}`}
-          tooltip="Tone of the article (−100 to 100)"
+          tooltip={`Tone of the article: ${sentimentArticle} (−100 to 100)`}
         />
       )}
       {sentimentCommunity != null && (
         <MetricPill
           icon={<SentimentDot score={sentimentCommunity} />}
           label={`Community: ${getSentimentLabel(sentimentCommunity)}`}
-          tooltip="Tone of community discussion (−100 to 100)"
+          tooltip={`Tone of community discussion: ${sentimentCommunity} (−100 to 100)`}
         />
       )}
       {controversyScore != null && (

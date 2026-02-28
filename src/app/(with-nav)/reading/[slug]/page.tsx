@@ -96,10 +96,29 @@ export default async function ReadingListItem({ params }: Props) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 hover:underline"
               >
-                <span className="sm:hidden">Read Article</span>
-                <span className="hidden sm:inline">Read Original Article</span>
+                <span className="sm:hidden">Article</span>
+                <span className="hidden sm:inline">Original Article</span>
                 <ExternalLinkIcon className="w-4 h-4" />
               </a>
+              {item.discussionUrl && (
+                <>
+                  <span
+                    aria-hidden="true"
+                    className="mx-2 text-muted-foreground/60"
+                  >
+                    |
+                  </span>
+                  <a
+                    href={item.discussionUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 hover:underline"
+                  >
+                    Discussion
+                    <ExternalLinkIcon className="w-4 h-4" />
+                  </a>
+                </>
+              )}
               <span
                 aria-hidden="true"
                 className="mx-2 text-muted-foreground/60 hidden sm:inline"
