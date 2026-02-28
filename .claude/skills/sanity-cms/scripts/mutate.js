@@ -27,7 +27,7 @@
  *   # Dry run (validate only, no mutation)
  *   node mutate.js --action create --data '...' --dry-run
  */
-import { getClient, parseArgs, outputJSON, outputError } from './lib/client.js';
+import { getClient, parseArgs, outputJSON, outputError, validateDocumentId } from './lib/client.js';
 import fs from 'fs';
 import crypto from 'crypto';
 
@@ -94,6 +94,10 @@ try {
     if (!data._type) {
       outputError(new Error('Document must have a _type field'));
       process.exit(1);
+    }
+
+    if (data._id) {
+      validateDocumentId(data._id);
     }
 
     addMissingKeys(data);

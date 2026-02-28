@@ -10,6 +10,11 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /**
+ * Sanity imposes a 128-character limit on document _id fields.
+ */
+export const SANITY_MAX_ID_LENGTH = 128;
+
+/**
  * Find the project root by walking up from the scripts directory.
  * The skill lives at .claude/skills/sanity-cms/scripts/lib/, so project root is 5 levels up.
  */
@@ -133,4 +138,18 @@ export function outputError(error) {
     success: false,
     error: error.message || String(error),
   }, null, 2));
+}
+
+/**
+ * Validate that a Sanity document _id does not exceed the 128-character limit.
+ * @param {string} id - The document ID to validate.
+ * @throws {Error} If the ID exceeds 128 characters.
+ */
+export function validateDocumentId(id) {
+  if (typeof id === 'string' && id.length > SANITY_MAX_ID_LENGTH) {
+    throw new Error(
+      `Document _id exceeds Sanity's ${SANITY_MAX_ID_LENGTH}-character limit ` +
+      `(got ${id.length} characters). Shorten the _id value.`
+    );
+  }
 }
