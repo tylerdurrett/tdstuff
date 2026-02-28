@@ -16,13 +16,15 @@ Determine three things from the user's message:
 **Filter criteria** — maps to `checklist.js` flags:
 - `--no-topics` — items with no topics assigned
 - `--uncategorized` — items with no categories
+- `--no-metrics` — items missing any of the 5 metric fields (hnScore, hnCommentCount, sentimentArticle, sentimentCommunity, controversyScore)
+- `--no-article-sentiment` — items missing the sentimentArticle field specifically
 - `--categories "slug1,slug2"` — items in specific categories (comma-separated slugs)
 - `--exclude-categories "slug1,slug2"` — items NOT in specific categories
 - `--topic "slug"` — items with a specific topic
 - No filter — all published items
 
 **Instruction source** — one of:
-- A bundled template name: `topics`, `categorize` (see [assets/instructions/](assets/instructions/))
+- A bundled template name: `topics`, `categorize`, `metrics` (see [assets/instructions/](assets/instructions/))
 - A file path to a custom instruction `.md` file
 
 **Task name** — a short kebab-case label (e.g. `topic-assignment`, `recategorize`). Infer from context.
@@ -59,7 +61,7 @@ Ask the user to confirm before launching the batch process.
 
 - **Bundled template**: Copy from `.claude/skills/batch-process/assets/instructions/<name>.md` to the task directory as `instruction.md`
 - **Custom path**: Verify the file exists. No copy needed.
-- **Neither specified**: Ask the user which instruction to use. Show available templates: `topics`, `categorize`.
+- **Neither specified**: Ask the user which instruction to use. Show available templates: `topics`, `categorize`, `metrics`.
 
 ### Step 6: Launch ralph_json.sh
 
@@ -97,3 +99,4 @@ Mention the log file and checklist paths casually in case they want to check pro
 
 - **topics** — Assign 2-5 topics to a reading list item. Creates new topics if needed, reuses existing ones. See [assets/instructions/topics.md](assets/instructions/topics.md).
 - **categorize** — Assign a single category to a reading list item based on editorial guidelines. See [assets/instructions/categorize.md](assets/instructions/categorize.md).
+- **metrics** — Score article sentiment, community sentiment, controversy, and fetch HN engagement data. See [assets/instructions/metrics.md](assets/instructions/metrics.md).
