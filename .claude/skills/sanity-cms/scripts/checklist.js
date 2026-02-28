@@ -10,6 +10,8 @@
  *   node checklist.js --topic "ai-coding-agents" --output checklist.json
  *   node checklist.js --uncategorized --output checklist.json
  *   node checklist.js --no-topics --output checklist.json
+ *   node checklist.js --no-metrics --output checklist.json
+ *   node checklist.js --no-article-sentiment --output checklist.json
  *   node checklist.js --exclude-categories "..." --output checklist.json --dry-run
  */
 import fs from 'fs';
@@ -121,6 +123,16 @@ async function main() {
     filters.push(
       '(!defined(categories) || count(categories) == 0 || count(categories[_ref in $excludeIds]) == 0)'
     );
+  }
+
+  if (args['no-metrics'] === 'true') {
+    filters.push(
+      '(!defined(sentimentArticle) || !defined(hnScore) || !defined(hnCommentCount) || !defined(sentimentCommunity) || !defined(controversyScore))'
+    );
+  }
+
+  if (args['no-article-sentiment'] === 'true') {
+    filters.push('!defined(sentimentArticle)');
   }
 
   if (args['no-topics'] === 'true') {
