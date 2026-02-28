@@ -48,6 +48,12 @@ Project: `g1sakegy` | Dataset: `production`
 | discussionShortSummary | text | No | |
 | discussionGist | string | No | |
 | discussionTitle | string | No | |
+| topics | array of reference → topic | No | 2-5 topic tags |
+| hnScore | number | No | HN upvote count at processing time |
+| hnCommentCount | number | No | HN comment count at processing time |
+| sentimentArticle | number | No | Article tone: -100 (negative) to 100 (positive) |
+| sentimentCommunity | number | No | Community reaction: -100 (negative) to 100 (positive) |
+| controversyScore | number | No | How polarizing: 0 (consensus) to 100 (deeply divisive) |
 | body | blockContent | No | Notes about the article |
 
 ### category

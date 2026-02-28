@@ -132,6 +132,16 @@ node .claude/skills/sanity-cms/scripts/checklist.js \
   --no-topics \
   --output /path/to/checklist.json
 
+# Items missing any metric fields (hnScore, hnCommentCount, sentimentArticle, sentimentCommunity, controversyScore)
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --no-metrics \
+  --output /path/to/checklist.json
+
+# Items missing article sentiment specifically
+node .claude/skills/sanity-cms/scripts/checklist.js \
+  --no-article-sentiment \
+  --output /path/to/checklist.json
+
 # All published items (no filter)
 node .claude/skills/sanity-cms/scripts/checklist.js \
   --output /path/to/checklist.json
@@ -141,7 +151,7 @@ node .claude/skills/sanity-cms/scripts/checklist.js \
   --exclude-categories "damage-control" --output checklist.json --dry-run
 ```
 
-**Args:** `--output` (required), `--exclude-categories` (optional, comma-separated slugs), `--categories` (optional, comma-separated slugs), `--topic` (optional, single slug), `--uncategorized` (optional flag), `--no-topics` (optional flag), `--dry-run`
+**Args:** `--output` (required), `--exclude-categories` (optional, comma-separated slugs), `--categories` (optional, comma-separated slugs), `--topic` (optional, single slug), `--uncategorized` (optional flag), `--no-topics` (optional flag), `--no-metrics` (optional flag), `--no-article-sentiment` (optional flag), `--dry-run`
 
 `--categories` and `--exclude-categories` are mutually exclusive. `--topic` can be combined with either.
 
