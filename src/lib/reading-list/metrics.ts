@@ -56,9 +56,13 @@ export function getControversyLabel(
 }
 
 /**
- * Map a sentiment score (-100 to 100) to an oklch hue value.
- * -100 → 0 (red), 0 → 60 (yellow), 100 → 120 (green)
+ * Map a sentiment score (-100 to 100) to an oklch color string.
+ * 0 → darkish gray, negative → brighter red, positive → brighter green.
  */
-export function sentimentToHue(score: number): number {
-  return ((score + 100) / 200) * 120
+export function sentimentToColor(score: number): string {
+  const intensity = Math.abs(score) / 100
+  const hue = score >= 0 ? 145 : 25
+  const chroma = intensity * 0.2
+  const lightness = 0.55 + intensity * 0.1
+  return `oklch(${lightness} ${chroma} ${hue})`
 }

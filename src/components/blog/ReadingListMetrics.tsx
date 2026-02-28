@@ -5,7 +5,7 @@ import {
   calculateEngagementRatio,
   getSentimentLabel,
   getControversyLabel,
-  sentimentToHue,
+  sentimentToColor,
 } from '@/lib/reading-list/metrics'
 import {
   Tooltip,
@@ -121,11 +121,10 @@ function MetricPill({
 }
 
 function SentimentDot({ score }: { score: number }) {
-  const hue = sentimentToHue(score)
   return (
     <span
       className="inline-block h-2.5 w-2.5 rounded-full"
-      style={{ backgroundColor: `oklch(0.65 0.15 ${hue})` }}
+      style={{ backgroundColor: sentimentToColor(score) }}
     />
   )
 }

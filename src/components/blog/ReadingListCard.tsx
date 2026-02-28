@@ -4,7 +4,7 @@ import { urlFor } from '@/sanity/lib/image'
 import Image from 'next/image'
 import { ArrowUpIcon, ExternalLinkIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
-import { sentimentToHue } from '@/lib/reading-list/metrics'
+import { sentimentToColor } from '@/lib/reading-list/metrics'
 
 interface ReadingListCardProps {
   item: ReadingListItemMeta
@@ -63,7 +63,7 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
               <span
                 className="inline-block h-2 w-2 rounded-full"
                 style={{
-                  backgroundColor: `oklch(0.65 0.15 ${sentimentToHue(item.sentimentArticle)})`,
+                  backgroundColor: sentimentToColor(item.sentimentArticle),
                 }}
                 title={`Sentiment: ${item.sentimentArticle}`}
               />
