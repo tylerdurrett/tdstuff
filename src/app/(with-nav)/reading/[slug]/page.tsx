@@ -119,7 +119,7 @@ export default async function ReadingListItem({ params }: Props) {
                     |
                   </span>
                   <div className="flex items-center gap-1.5 flex-wrap">
-                    {item.topics.map((topic) => (
+                    {item.topics.filter(Boolean).map((topic) => (
                       <Badge key={topic._id} variant="secondary" asChild>
                         <Link href={`/reading?topic=${topic.slug.current}`}>
                           {topic.title}
