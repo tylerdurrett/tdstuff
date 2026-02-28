@@ -66,14 +66,7 @@ export default async function ReadingListItem({ params }: Props) {
   }
 
   const isAnimatedGif = imageUrl?.toLowerCase().includes('.gif') || false
-  const formattedDateLong = item.savedAt
-    ? new Date(item.savedAt).toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      })
-    : 'unknown date'
-  const formattedDateShort = item.savedAt
+  const formattedDate = item.savedAt
     ? new Date(item.savedAt).toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'short',
@@ -96,8 +89,7 @@ export default async function ReadingListItem({ params }: Props) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 hover:underline"
               >
-                <span className="sm:hidden">Article</span>
-                <span className="hidden sm:inline">Original Article</span>
+                Article
                 <ExternalLinkIcon className="w-4 h-4" />
               </a>
               {item.discussionUrl && (
@@ -126,8 +118,7 @@ export default async function ReadingListItem({ params }: Props) {
                 |
               </span>
               <span className="tracking-wide">
-                added <span className="sm:hidden">{formattedDateShort}</span>
-                <span className="hidden sm:inline">{formattedDateLong}</span>
+                added {formattedDate}
               </span>
               {item.topics && item.topics.length > 0 && (
                 <>
