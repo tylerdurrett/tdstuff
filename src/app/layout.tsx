@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Hepta_Slab } from 'next/font/google'
+import { TooltipProvider } from '@/components/ui/tooltip'
 
 const heptaSlab = Hepta_Slab({
   subsets: ['latin'],
@@ -78,7 +79,9 @@ export default function RootLayout({
         />
         <link rel="stylesheet" href="https://use.typekit.net/rlo7jqr.css" />
       </head>
-      <body className="font-hepta-slab antialiased">{children}</body>
+      <body className="font-hepta-slab antialiased">
+        <TooltipProvider delayDuration={300}>{children}</TooltipProvider>
+      </body>
     </html>
   )
 }

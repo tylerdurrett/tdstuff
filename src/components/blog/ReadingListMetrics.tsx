@@ -1,3 +1,5 @@
+'use client'
+
 import {
   calculateHotness,
   calculateEngagementRatio,
@@ -5,6 +7,11 @@ import {
   getControversyLabel,
   sentimentToHue,
 } from '@/lib/reading-list/metrics'
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from '@/components/ui/tooltip'
 import {
   FlameIcon,
   MessageCircleIcon,
@@ -42,49 +49,49 @@ export function ReadingListMetrics({
         <MetricPill
           icon={<ArrowUpIcon className="h-3.5 w-3.5" />}
           label={`${hnScore}`}
-          title={`HN Score: ${hnScore}`}
+          tooltip="Hacker News upvotes"
         />
       )}
       {hnCommentCount != null && (
         <MetricPill
           icon={<MessageCircleIcon className="h-3.5 w-3.5" />}
           label={`${hnCommentCount}`}
-          title={`Comments: ${hnCommentCount}`}
+          tooltip="Hacker News comments"
         />
       )}
       {hotness != null && (
         <MetricPill
           icon={<FlameIcon className="h-3.5 w-3.5" />}
           label={hotness.toFixed(1)}
-          title={`Hotness: ${hotness.toFixed(2)}`}
+          tooltip="Trending score — higher means more recent popularity"
         />
       )}
       {engagementRatio != null && (
         <MetricPill
           icon={<TrendingUpIcon className="h-3.5 w-3.5" />}
           label={engagementRatio.toFixed(2)}
-          title={`Engagement Ratio: ${engagementRatio.toFixed(3)}`}
+          tooltip="Comments per upvote — higher means more discussion"
         />
       )}
       {sentimentArticle != null && (
         <MetricPill
           icon={<SentimentDot score={sentimentArticle} />}
           label={`Article: ${getSentimentLabel(sentimentArticle)}`}
-          title={`Article Sentiment: ${sentimentArticle}`}
+          tooltip="Tone of the article (−100 to 100)"
         />
       )}
       {sentimentCommunity != null && (
         <MetricPill
           icon={<SentimentDot score={sentimentCommunity} />}
           label={`Community: ${getSentimentLabel(sentimentCommunity)}`}
-          title={`Community Sentiment: ${sentimentCommunity}`}
+          tooltip="Tone of community discussion (−100 to 100)"
         />
       )}
       {controversyScore != null && (
         <MetricPill
           icon={<ScaleIcon className="h-3.5 w-3.5" />}
           label={getControversyLabel(controversyScore) ?? ''}
-          title={`Controversy: ${controversyScore}/100`}
+          tooltip="How divided the community response is (0–100)"
         />
       )}
     </div>
@@ -94,20 +101,22 @@ export function ReadingListMetrics({
 function MetricPill({
   icon,
   label,
-  title,
+  tooltip,
 }: {
   icon: React.ReactNode
   label: string
-  title: string
+  tooltip: string
 }) {
   return (
-    <span
-      className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-2.5 py-1 text-secondary-foreground"
-      title={title}
-    >
-      {icon}
-      <span>{label}</span>
-    </span>
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <span className="inline-flex cursor-default items-center gap-1.5 rounded-full bg-secondary px-2.5 py-1 text-secondary-foreground">
+          {icon}
+          <span>{label}</span>
+        </span>
+      </TooltipTrigger>
+      <TooltipContent>{tooltip}</TooltipContent>
+    </Tooltip>
   )
 }
 
