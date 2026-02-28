@@ -110,7 +110,8 @@ async function main() {
   const params = {};
 
   if (args.uncategorized === 'true') {
-    filters.push('(!defined(categories) || count(categories) == 0)');
+    // Also catch items whose category refs are all dangling (resolve to null)
+    filters.push('(!defined(categories) || count(categories) == 0 || count(categories[@ -> _id != null]) == 0)');
   } else if (args.categories) {
     const slugs = args.categories.split(',').map((s) => s.trim());
     const ids = await resolveCategoryIds(client, slugs);
@@ -156,8 +157,8 @@ async function main() {
   const checklist = items.map((item) => ({
     title: item.title,
     _id: item._id,
-    currentCategories: (item.currentCategories || []).map((c) => c.title),
-    currentTopics: (item.currentTopics || []).map((t) => t.title),
+    currentCategories: (item.currentCategories || []).filter(Boolean).map((c) => c.title),
+    currentTopics: (item.currentTopics || []).filter(Boolean).map((t) => t.title),
     status: 'unprocessed',
   }));
 
