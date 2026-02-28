@@ -42,7 +42,10 @@ export async function getReadingListItems(
     keyOpposingViewpoints,
     categories[]->{title, slug},
     topics[]->{_id, title, slug},
-    featuredImage
+    featuredImage,
+    sentimentArticle,
+    hnScore,
+    hnCommentCount
   }`)
 
   const readingListItems = await client.fetch(
@@ -111,6 +114,11 @@ export async function getReadingListItemBySlug(slug: string) {
       discussionShortSummary,
       discussionGist,
       discussionTitle,
+      hnScore,
+      hnCommentCount,
+      sentimentArticle,
+      sentimentCommunity,
+      controversyScore,
       body[]{
         ...,
         _type == "mux.video" => {

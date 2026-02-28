@@ -7,6 +7,7 @@ import { urlFor } from '@/sanity/lib/image'
 import Link from 'next/link'
 import { ExternalLinkIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
+import { ReadingListMetrics } from '@/components/blog/ReadingListMetrics'
 import '../../blog/prose.css'
 
 type Props = {
@@ -129,6 +130,14 @@ export default async function ReadingListItem({ params }: Props) {
                 </>
               )}
             </div>
+            <ReadingListMetrics
+              hnScore={item.hnScore ?? null}
+              hnCommentCount={item.hnCommentCount ?? null}
+              sentimentArticle={item.sentimentArticle ?? null}
+              sentimentCommunity={item.sentimentCommunity ?? null}
+              controversyScore={item.controversyScore ?? null}
+              savedAt={item.savedAt ?? null}
+            />
           </header>
         </Container>
 

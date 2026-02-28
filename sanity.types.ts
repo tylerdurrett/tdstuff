@@ -282,6 +282,11 @@ export type ReadingList = {
   discussionShortSummary?: string
   discussionGist?: string
   discussionTitle?: string
+  hnScore?: number
+  hnCommentCount?: number
+  sentimentArticle?: number
+  sentimentCommunity?: number
+  controversyScore?: number
   body?: BlockContent
 }
 
@@ -954,7 +959,7 @@ export type PostQueryResult = {
 
 // Source: ./src/models/category.ts
 // Variable: categoriesQuery
-// Query: *[    _type == "category"    && count(*[_type == "readingList" && references(^._id)]) >= 5  ]|order(title asc){    _id,    title,    slug,    description  }
+// Query: *[    _type == "category"    && count(*[_type == "readingList" && defined(slug.current) && references(^._id)]) >= 5  ]|order(title asc){    _id,    title,    slug,    description  }
 export type CategoriesQueryResult = Array<{
   _id: string
   title: string
@@ -964,7 +969,7 @@ export type CategoriesQueryResult = Array<{
 
 // Source: ./src/models/readingList.ts
 // Variable: readingListItemsQuery
-// Query: *[    _type == "readingList"    && defined(slug.current)    && ($category == "" || $category in categories[]->slug.current)    && ($topic == "" || $topic in topics[]->slug.current)  ]|order(savedAt desc)[$start...$end]{    _id,    title,    slug,    originalUrl,    savedAt,    gist,    shortSummary,    keyPoints,    sentiment,    keyAgreeingViewpoints,    keyOpposingViewpoints,    categories[]->{title, slug},    topics[]->{_id, title, slug},    featuredImage  }
+// Query: *[    _type == "readingList"    && defined(slug.current)    && ($category == "" || $category in categories[]->slug.current)    && ($topic == "" || $topic in topics[]->slug.current)  ]|order(savedAt desc)[$start...$end]{    _id,    title,    slug,    originalUrl,    savedAt,    gist,    shortSummary,    keyPoints,    sentiment,    keyAgreeingViewpoints,    keyOpposingViewpoints,    categories[]->{title, slug},    topics[]->{_id, title, slug},    featuredImage,    sentimentArticle,    hnScore,    hnCommentCount  }
 export type ReadingListItemsQueryResult = Array<{
   _id: string
   title: string
@@ -1000,12 +1005,15 @@ export type ReadingListItemsQueryResult = Array<{
     caption?: string
     _type: 'image'
   } | null
+  sentimentArticle: number | null
+  hnScore: number | null
+  hnCommentCount: number | null
 }>
 // Variable: countQuery
 // Query: count(*[    _type == "readingList"    && defined(slug.current)    && ($category == "" || $category in categories[]->slug.current)    && ($topic == "" || $topic in topics[]->slug.current)  ])
 export type CountQueryResult = number
 // Variable: readingListItemQuery
-// Query: *[_type == "readingList" && slug.current == $slug][0]{      _id,       title,       originalTitle,      slug,       originalUrl,      discussionUrl,      categories[]->{title, slug},      topics[]->{_id, title, slug},      savedAt,       featuredImage{..., "caption": caption},      detailedSummary,      keyPoints,      conclusion,      shortSummary,      gist,      newTitle,      discussionDetailedSummary,      keyAgreeingViewpoints,      keyOpposingViewpoints,      sentiment,      discussionShortSummary,      discussionGist,      discussionTitle,      body[]{        ...,        _type == "mux.video" => {          asset->        }      }    }
+// Query: *[_type == "readingList" && slug.current == $slug][0]{      _id,       title,       originalTitle,      slug,       originalUrl,      discussionUrl,      categories[]->{title, slug},      topics[]->{_id, title, slug},      savedAt,       featuredImage{..., "caption": caption},      detailedSummary,      keyPoints,      conclusion,      shortSummary,      gist,      newTitle,      discussionDetailedSummary,      keyAgreeingViewpoints,      keyOpposingViewpoints,      sentiment,      discussionShortSummary,      discussionGist,      discussionTitle,      hnScore,      hnCommentCount,      sentimentArticle,      sentimentCommunity,      controversyScore,      body[]{        ...,        _type == "mux.video" => {          asset->        }      }    }
 export type ReadingListItemQueryResult = {
   _id: string
   title: string
@@ -1050,6 +1058,11 @@ export type ReadingListItemQueryResult = {
   discussionShortSummary: string | null
   discussionGist: string | null
   discussionTitle: string | null
+  hnScore: number | null
+  hnCommentCount: number | null
+  sentimentArticle: number | null
+  sentimentCommunity: number | null
+  controversyScore: number | null
   body: Array<
     | {
         children?: Array<{
@@ -1585,6 +1598,14 @@ export type TopicBySlugQueryResult = {
   title: string
   slug: Slug
 } | null
+// Variable: topicsWithCountsQuery
+// Query: *[_type == "topic"]{    _id,    title,    slug,    "count": count(*[_type == "readingList" && references(^._id)])  } | order(count desc)
+export type TopicsWithCountsQueryResult = Array<{
+  _id: string
+  title: string
+  slug: Slug
+  count: number
+}>
 
 // Query TypeMap
 import '@sanity/client'
@@ -1592,12 +1613,13 @@ declare module '@sanity/client' {
   interface SanityQueries {
     '*[\n    _type == "post"\n    && defined(slug.current)\n  ]|order(publishedAt desc)[0...$limit]{\n    _id, \n    title, \n    slug, \n    publishedAt, \n    excerpt, \n    body[]{\n      ...,\n      _type == "mux.video" => {\n        asset->\n      }\n    }, \n    category->{title, slug}, \n    mainImage, \n    mainVideo{..., asset->},\n    author->{name, image}\n  }': PostsQueryResult
     '*[_type == "post" && slug.current == $slug && category->slug.current == $categorySlug][0]{\n      _id, \n      title, \n      slug, \n      subtitle, \n      intro, \n      category->{title, slug}, \n      publishedAt, \n      editedAt, \n      excerpt, \n      mainImage{..., "caption": caption},\n      hideMainImageOnPost,\n      mainVideo{..., asset->},\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }, \n      author->{name, image}\n    }': PostQueryResult
-    '*[\n    _type == "category"\n    && count(*[_type == "readingList" && references(^._id)]) >= 5\n  ]|order(title asc){\n    _id,\n    title,\n    slug,\n    description\n  }': CategoriesQueryResult
-    '*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n    && ($topic == "" || $topic in topics[]->slug.current)\n  ]|order(savedAt desc)[$start...$end]{\n    _id,\n    title,\n    slug,\n    originalUrl,\n    savedAt,\n    gist,\n    shortSummary,\n    keyPoints,\n    sentiment,\n    keyAgreeingViewpoints,\n    keyOpposingViewpoints,\n    categories[]->{title, slug},\n    topics[]->{_id, title, slug},\n    featuredImage\n  }': ReadingListItemsQueryResult
+    '*[\n    _type == "category"\n    && count(*[_type == "readingList" && defined(slug.current) && references(^._id)]) >= 5\n  ]|order(title asc){\n    _id,\n    title,\n    slug,\n    description\n  }': CategoriesQueryResult
+    '*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n    && ($topic == "" || $topic in topics[]->slug.current)\n  ]|order(savedAt desc)[$start...$end]{\n    _id,\n    title,\n    slug,\n    originalUrl,\n    savedAt,\n    gist,\n    shortSummary,\n    keyPoints,\n    sentiment,\n    keyAgreeingViewpoints,\n    keyOpposingViewpoints,\n    categories[]->{title, slug},\n    topics[]->{_id, title, slug},\n    featuredImage,\n    sentimentArticle,\n    hnScore,\n    hnCommentCount\n  }': ReadingListItemsQueryResult
     'count(*[\n    _type == "readingList"\n    && defined(slug.current)\n    && ($category == "" || $category in categories[]->slug.current)\n    && ($topic == "" || $topic in topics[]->slug.current)\n  ])': CountQueryResult
-    '*[_type == "readingList" && slug.current == $slug][0]{\n      _id, \n      title, \n      originalTitle,\n      slug, \n      originalUrl,\n      discussionUrl,\n      categories[]->{title, slug},\n      topics[]->{_id, title, slug},\n      savedAt, \n      featuredImage{..., "caption": caption},\n      detailedSummary,\n      keyPoints,\n      conclusion,\n      shortSummary,\n      gist,\n      newTitle,\n      discussionDetailedSummary,\n      keyAgreeingViewpoints,\n      keyOpposingViewpoints,\n      sentiment,\n      discussionShortSummary,\n      discussionGist,\n      discussionTitle,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ReadingListItemQueryResult
+    '*[_type == "readingList" && slug.current == $slug][0]{\n      _id, \n      title, \n      originalTitle,\n      slug, \n      originalUrl,\n      discussionUrl,\n      categories[]->{title, slug},\n      topics[]->{_id, title, slug},\n      savedAt, \n      featuredImage{..., "caption": caption},\n      detailedSummary,\n      keyPoints,\n      conclusion,\n      shortSummary,\n      gist,\n      newTitle,\n      discussionDetailedSummary,\n      keyAgreeingViewpoints,\n      keyOpposingViewpoints,\n      sentiment,\n      discussionShortSummary,\n      discussionGist,\n      discussionTitle,\n      hnScore,\n      hnCommentCount,\n      sentimentArticle,\n      sentimentCommunity,\n      controversyScore,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ReadingListItemQueryResult
     '*[\n    _type == "thing"\n  ]|order(_createdAt desc)[0...$limit]{\n    _id,\n    title,\n    slug,\n    description,\n    featuredImage{..., "caption": caption, "alt": alt},\n    featuredVideo{..., asset->},\n    featuredVideoThumb{..., asset->},\n    images[]{\n      ...,\n      "caption": caption,\n      "alt": alt\n    },\n    videos[]{\n      file{..., asset->},\n      title,\n      alt,\n      caption,\n      poster{..., "alt": alt},\n      autoplay,\n      loop,\n      muted\n    },\n    isAiGenerated,\n    body[]{\n      ...,\n      _type == "mux.video" => {\n        asset->\n      }\n    }\n  }': ThingsQueryResult
     '*[_type == "thing" && slug.current == $slug][0]{\n      _id,\n      title,\n      slug,\n      description,\n      featuredImage{..., "caption": caption, "alt": alt},\n      featuredVideo{..., asset->},\n      featuredVideoThumb{..., asset->},\n      images[]{\n        ...,\n        "caption": caption,\n        "alt": alt\n      },\n      videos[]{\n        file{..., asset->},\n        title,\n        alt,\n        caption,\n        poster{..., "alt": alt},\n        autoplay,\n        loop,\n        muted\n      },\n      isAiGenerated,\n      body[]{\n        ...,\n        _type == "mux.video" => {\n          asset->\n        }\n      }\n    }': ThingQueryResult
     '*[\n    _type == "topic"\n    && slug.current == $slug\n  ][0]{\n    _id,\n    title,\n    slug\n  }': TopicBySlugQueryResult
+    '*[_type == "topic"]{\n    _id,\n    title,\n    slug,\n    "count": count(*[_type == "readingList" && references(^._id)])\n  } | order(count desc)': TopicsWithCountsQueryResult
   }
 }

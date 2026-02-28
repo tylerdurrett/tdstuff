@@ -23,6 +23,14 @@ export const readingListType = defineType({
         collapsed: false,
       },
     },
+    {
+      name: 'metricsFields',
+      title: 'Metrics',
+      options: {
+        collapsible: true,
+        collapsed: true,
+      },
+    },
   ],
   fields: [
     defineField({
@@ -214,6 +222,46 @@ export const readingListType = defineType({
       description:
         'Your version of a descriptive title of the discussion based on the above. Try to communicate the gist in only a short headline.',
       fieldset: 'discussionFields',
+    }),
+    defineField({
+      name: 'hnScore',
+      title: 'HN Score',
+      type: 'number',
+      description: 'Hacker News upvote count at processing time',
+      fieldset: 'metricsFields',
+      validation: (rule) => rule.min(0).integer(),
+    }),
+    defineField({
+      name: 'hnCommentCount',
+      title: 'HN Comment Count',
+      type: 'number',
+      description: 'Total comment count at processing time',
+      fieldset: 'metricsFields',
+      validation: (rule) => rule.min(0).integer(),
+    }),
+    defineField({
+      name: 'sentimentArticle',
+      title: 'Article Sentiment',
+      type: 'number',
+      description: 'Article tone: -100 (negative) to 100 (positive)',
+      fieldset: 'metricsFields',
+      validation: (rule) => rule.min(-100).max(100).integer(),
+    }),
+    defineField({
+      name: 'sentimentCommunity',
+      title: 'Community Sentiment',
+      type: 'number',
+      description: 'Community reaction: -100 (negative) to 100 (positive)',
+      fieldset: 'metricsFields',
+      validation: (rule) => rule.min(-100).max(100).integer(),
+    }),
+    defineField({
+      name: 'controversyScore',
+      title: 'Controversy Score',
+      type: 'number',
+      description: 'How polarizing: 0 (consensus) to 100 (deeply divisive)',
+      fieldset: 'metricsFields',
+      validation: (rule) => rule.min(0).max(100).integer(),
     }),
     defineField({
       name: 'body',

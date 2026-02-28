@@ -2,8 +2,9 @@ import Link from 'next/link'
 import { ReadingListItemMeta } from '@/models/readingList'
 import { urlFor } from '@/sanity/lib/image'
 import Image from 'next/image'
-import { ExternalLinkIcon } from 'lucide-react'
+import { ArrowUpIcon, ExternalLinkIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
+import { sentimentToHue } from '@/lib/reading-list/metrics'
 
 interface ReadingListCardProps {
   item: ReadingListItemMeta
@@ -56,6 +57,24 @@ export function ReadingListCard({ item }: ReadingListCardProps) {
                   day: 'numeric',
                 })}
               </time>
+            )}
+            {item.sentimentArticle != null && (
+              <span
+                className="inline-block h-2 w-2 rounded-full"
+                style={{
+                  backgroundColor: `oklch(0.65 0.15 ${sentimentToHue(item.sentimentArticle)})`,
+                }}
+                title={`Sentiment: ${item.sentimentArticle}`}
+              />
+            )}
+            {item.hnScore != null && item.hnScore >= 100 && (
+              <span
+                className="inline-flex items-center gap-0.5 text-xs text-muted-foreground"
+                title={`HN Score: ${item.hnScore}`}
+              >
+                <ArrowUpIcon className="h-3 w-3" />
+                {item.hnScore}
+              </span>
             )}
             {item.topics &&
               item.topics.length > 0 &&
