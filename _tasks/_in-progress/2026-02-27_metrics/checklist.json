@@ -168,7 +168,7 @@
       "AI Bias",
       "Software Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Craft to Consumption: Finding Value in Vibe Coding",
@@ -182,7 +182,7 @@
       "Technology Economics",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google Launches Nano Banana 2: Pro-Level AI Imaging at Flash Speed",
@@ -196,7 +196,7 @@
       "AI-Generated Content",
       "Digital Trust"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Weakens AI Safety Pledges Amid Military and Market Pressures",
@@ -210,7 +210,7 @@
       "Military AI",
       "AI Regulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Ethics Under Fire: Resisting Pentagon Pressure",
@@ -223,7 +223,7 @@
       "Government Surveillance",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLM=true: Silencing Terminal Noise for AI Agents",
@@ -236,7 +236,7 @@
       "Developer Tooling",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Vinext: Rebuilding Next.js with AI and Vite for the Serverless Era",
@@ -250,7 +250,7 @@
       "Serverless",
       "Web Frameworks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The AI Paper Flood: Physics Submissions Double on arXiv",
@@ -263,7 +263,7 @@
       "Academic Publishing",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Pentagon Threatens Anthropic Over AI Military Guardrails",
@@ -278,7 +278,7 @@
       "AI Regulation",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Watchers: Inside the OpenAI-Government Surveillance Machine",
@@ -292,7 +292,7 @@
       "Corporate Accountability",
       "Biometric Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Dog-Driven Development: Turning Canine Chaos into Playable Games with AI",
@@ -306,7 +306,7 @@
       "Game Development",
       "Prompt Engineering"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Musk's xAI Secures Pentagon Classified Deal Amid Anthropic Standoff",
@@ -320,7 +320,7 @@
       "Corporate Accountability",
       "Government Surveillance"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Surveillance Sabotage: Americans Target Flock Cameras Over ICE Concerns",
@@ -334,7 +334,7 @@
       "Civil Liberties",
       "Immigration Enforcement"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The EDM Renaissance: Reclaiming the Dance Floor",
@@ -347,7 +347,7 @@
       "Club Culture",
       "Post-Pandemic Society"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DJI Security Breach: Robot Vacuums Turned Into Global Surveillance Tools",
@@ -360,7 +360,7 @@
       "Smart Home Privacy",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Social Networks to Attention Media: Reclaiming the Original Web",
@@ -373,7 +373,7 @@
       "Attention Economy",
       "Decentralized Social Media"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Annotated Plan Workflow for AI Coding",
@@ -387,7 +387,7 @@
       "Developer Tooling",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why AI Agents Haven't Killed Electron Yet",
@@ -400,7 +400,7 @@
       "Cross-Platform Development",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Rise of 'Claws': A New Layer for AI Agents",
@@ -413,7 +413,7 @@
       "AI Architecture",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Supreme Court Strikes Down Trump's Global Tariffs",
@@ -426,7 +426,7 @@
       "Executive Power",
       "Constitutional Law"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Taste: The Human Gatekeeper in the Age of AI Slop",
@@ -439,7 +439,7 @@
       "Software Craftsmanship",
       "Vibe Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The AI Exoskeleton: Why Amplification Beats Autonomy",
@@ -453,7 +453,7 @@
       "AI Architecture",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Cognitive Cost of AI-Assisted Creation",
@@ -467,7 +467,7 @@
       "Human-AI Collaboration",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Measuring the Shift: How Real-World Users and AI Agents Co-Construct Autonomy",
@@ -481,7 +481,7 @@
       "AI Coding Agents",
       "AI Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 3.1 Pro: Advancing Multimodal Reasoning and Safety",
@@ -495,7 +495,7 @@
       "Multimodal AI",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Lyria — Gemini AI music & song generator",
@@ -508,7 +508,7 @@
       "AI Music Generation",
       "Multimodal AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DOGE Track: Documenting Federal Disruption",
@@ -522,7 +522,7 @@
       "Deregulation",
       "Federal Workforce"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Multilingual Failure of AI Guardrails",
@@ -536,7 +536,7 @@
       "AI Benchmarks",
       "Multilingual AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI in Europe: Boosting Productivity Without Displacing Workers",
@@ -549,7 +549,7 @@
       "Human-AI Collaboration",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Officially (More Clearly) Bans 3rd-Party Harnesses with Claude Code API :-(",
@@ -564,7 +564,7 @@
       "Corporate AI Strategy",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Human Style: Why Writing Still Matters in the Age of AI Slop",
@@ -577,7 +577,7 @@
       "Human-AI Collaboration",
       "Writing & AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AAP and AIP: Observability Infrastructure for AI Agent Alignment",
@@ -591,7 +591,7 @@
       "AI Architecture",
       "Observability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Tailscale Peer Relays Reach General Availability",
@@ -604,7 +604,7 @@
       "Cloud Infrastructure",
       "Observability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Attention Singularity: Why Building New Things Is Getting Impossible",
@@ -617,7 +617,7 @@
       "AI-Generated Content",
       "Entrepreneurship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI and the Future of Software: Engineering Rigor as the Ultimate Accelerator",
@@ -631,7 +631,7 @@
       "Technical Debt",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The AI Productivity Paradox: Why the Tech Revolution is Missing from Economic Data",
@@ -645,7 +645,7 @@
       "Corporate Accountability",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Dark Reality of the AI-Powered Alpha School",
@@ -660,7 +660,7 @@
       "AI-Generated Content",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Debuts Claude Sonnet 4.6: Frontier Power for the Masses",
@@ -674,7 +674,7 @@
       "AI Agents",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Data Behind Show HN's Visibility Crisis",
@@ -688,7 +688,7 @@
       "Attention Economy",
       "Entrepreneurship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The $100 AI Prompt Injection Challenge",
@@ -702,7 +702,7 @@
       "Prompt Engineering",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Finishing Niche Side Projects with AI Agents",
@@ -716,7 +716,7 @@
       "AI & Productivity",
       "Vibe Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Slop: The Existential Threat to Open Source",
@@ -730,7 +730,7 @@
       "AI Coding Agents",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "SkillsBench: Validating the Impact of Curated Procedural Knowledge on AI Agents",
@@ -744,7 +744,7 @@
       "Human-AI Collaboration",
       "AI Regulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI optimism is a class privilege - Josh Collinsworth blog",
@@ -758,7 +758,7 @@
       "Labor Economics",
       "AI & Inequality"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Death of the Side SaaS",
@@ -772,7 +772,7 @@
       "AI-Generated Content",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "WebMCP: Connecting Web Apps to AI Agents via JavaScript Tools",
@@ -786,7 +786,7 @@
       "Developer Tooling",
       "Web Standards"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The AI Vibe Shift: Why the Industry is Manufacturing Its Own Backlash",
@@ -800,7 +800,7 @@
       "AI-Generated Content",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Modern CSS: Replacing Old Hacks with Native Power",
@@ -814,7 +814,7 @@
       "Browser Compatibility",
       "Web Standards"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude's Pen-Plotted Self-Portraits",
@@ -828,7 +828,7 @@
       "Generative Art",
       "AI Creativity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Car Wash Test: Why AI Still Lacks Common Sense",
@@ -841,7 +841,7 @@
       "LLM Reasoning",
       "Prompt Engineering"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenClaw Creator Joins OpenAI to Scale AI Agents",
@@ -855,7 +855,7 @@
       "Vibe Coding",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Palantir Sues Swiss Magazine 'Republik' Over Investigative Lobbying Reports",
@@ -869,7 +869,7 @@
       "Press Freedom",
       "Government Contracting"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Rise of the State-Corporate Panopticon",
@@ -884,7 +884,7 @@
       "Civil Liberties",
       "Biometric Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Publishers Block Internet Archive to Stop AI Scraping 'Backdoor'",
@@ -898,7 +898,7 @@
       "Digital Preservation",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Golf is Golfing: A Claude Code Game",
@@ -912,7 +912,7 @@
       "Game Development",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT-5.2 Discovers New Physics in Gluon Interactions",
@@ -926,7 +926,7 @@
       "AI for Science",
       "Particle Physics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Waymo Unveils 6th-Gen Driver: Scaling Autonomous Mobility with Lower Costs",
@@ -939,7 +939,7 @@
       "Sensor Technology",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT‑5.3‑Codex‑Spark",
@@ -952,7 +952,7 @@
       "Human-AI Collaboration",
       "AI Infrastructure"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google Upgrades Gemini 3 Deep Think for Real-World Science and Engineering",
@@ -965,7 +965,7 @@
       "LLM Reasoning",
       "AI for Science"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Helps Code, But Hollowes Prose: In Praise of Messy, Human Writing",
@@ -979,7 +979,7 @@
       "Human-AI Collaboration",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT-5 Outjudges Judges in Choice-of-Law Test: Error-Free, Rule-Focused Decisions",
@@ -993,7 +993,7 @@
       "AI Benchmarks",
       "AI & Law"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Communities Are Not Replaceable",
@@ -1007,7 +1007,7 @@
       "Platform Migration",
       "Urban Planning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ring’s ‘lost dog’ AI ad ignites fears of a people-tracking surveillance network",
@@ -1021,7 +1021,7 @@
       "Corporate Accountability",
       "Biometric Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Live City-Building Feed: 32 Mayors, 427 Cities, 7.94M Population",
@@ -1035,7 +1035,7 @@
       "LLM Reasoning",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Code 2.1.20 Hides Context; Users Want a Toggle, Not Verbose Mode",
@@ -1049,7 +1049,7 @@
       "Corporate Accountability",
       "Observability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Three Playbooks of CEO AI Memos—and the Klarna Caution",
@@ -1063,7 +1063,7 @@
       "Labor Economics",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GLM-5: Scaled Open-Source LLM for Long-Horizon Agents and Real Work",
@@ -1077,7 +1077,7 @@
       "AI Benchmarks",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Apologizing for Slow Email Replies",
@@ -1090,7 +1090,7 @@
       "Email Etiquette",
       "Digital Communication"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "287 Chrome Extensions Leak Browsing Histories of 37M Users, Many Tied to Similarweb",
@@ -1104,7 +1104,7 @@
       "Browser Security",
       "Supply Chain Security"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Shutting Down My Self-Hosted Git After AI Scraper Overload",
@@ -1118,7 +1118,7 @@
       "Open Source",
       "AI Training Data"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Entire Launches with $60M and Open-Source CLI to Version Agent Context in Git",
@@ -1132,7 +1132,7 @@
       "LLM Context Management",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Social Singularity: Our Hype Curve Hits 2034",
@@ -1146,7 +1146,7 @@
       "Labor Economics",
       "Attention Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Monetizing Hate: Inside a London TikTok Fake ‘House Tour’ Operation",
@@ -1160,7 +1160,7 @@
       "Attention Economy",
       "AI-Generated Content"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Moltbook: AI Theater, Not AGI—And a Security Wake-Up Call",
@@ -1174,7 +1174,7 @@
       "AI Safety",
       "Prompt Injection"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Particle Physics Isn’t Dead — It’s Just Hard",
@@ -1188,7 +1188,7 @@
       "Science Funding",
       "Fundamental Physics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Discord to Enforce Global Age Checks in March with ‘Teen-by-Default’",
@@ -1202,7 +1202,7 @@
       "Platform Policy",
       "Online Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ring’s Super Bowl ‘Lost Dog’ Pitch Masks Expansion of AI Surveillance",
@@ -1217,7 +1217,7 @@
       "Civil Liberties",
       "Biometric Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Irish Man With Valid Work Permit Detained by ICE for Five Months, Facing Deportation",
@@ -1230,7 +1230,7 @@
       "Civil Liberties",
       "Government Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Word Models to World Models: Training AI for Adversarial Robustness",
@@ -1244,7 +1244,7 @@
       "AI Safety",
       "Game Theory"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Speeds Work—And Swells It",
@@ -1258,7 +1258,7 @@
       "Labor Economics",
       "Workplace Wellbeing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Coder to Manager: How OpenClaw Became My Always-On Dev Team",
@@ -1273,7 +1273,7 @@
       "AI Hype",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Fear of ‘Good Enough’ AI and the Death of Software Craft",
@@ -1287,7 +1287,7 @@
       "Human-AI Collaboration",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Secure AI Automation for GitHub, Written in Markdown",
@@ -1301,7 +1301,7 @@
       "Developer Tooling",
       "GitHub Actions"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Quality Code with AI Requires Guardrails",
@@ -1315,7 +1315,7 @@
       "Software Craftsmanship",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Agents Over Frameworks: The Return of Real Software Engineering",
@@ -1329,7 +1329,7 @@
       "Developer Tooling",
       "Web Frameworks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Waymo World Model: Controllable, Multimodal Simulation for Rare-Event-Ready AVs",
@@ -1343,7 +1343,7 @@
       "Multimodal AI",
       "Synthetic Data & Simulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Choose Coding Agents by Use Case, Not Hype",
@@ -1357,7 +1357,7 @@
       "AI Hype",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Parallel Claude Agents Build a Linux-Capable C Compiler—And Expose Autonomy’s Limits",
@@ -1371,7 +1371,7 @@
       "AI Safety",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Test Your AI Agent Against Hidden Prompt Injections",
@@ -1385,7 +1385,7 @@
       "AI Safety",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Database Sprawl: Postgres Now Does It All",
@@ -1399,7 +1399,7 @@
       "Developer Tooling",
       "Software Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Chatbots to Agents: A Pragmatic Workflow for AI-Assisted Coding",
@@ -1413,7 +1413,7 @@
       "AI & Productivity",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Opus 4.6: Finance-Grade Reasoning Meets Native Excel and PowerPoint",
@@ -1427,7 +1427,7 @@
       "AI Benchmarks",
       "LLM Reasoning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Agent Teams in Claude Code: Parallel Collaboration (Experimental)",
@@ -1441,7 +1441,7 @@
       "Developer Tooling",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Unveils Claude Opus 4.6: SOTA Agentic Coding, 1M-Token Context, and Stronger Safety",
@@ -1456,7 +1456,7 @@
       "LLM Context Management",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Unveils GPT‑5.3‑Codex: Faster, Steerable Agentic Model for End‑to‑End Work",
@@ -1470,7 +1470,7 @@
       "AI Safety",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When Agent Skills Turn Into Malware: Markdown as the New Supply Chain",
@@ -1484,7 +1484,7 @@
       "AI Safety",
       "Model Context Protocol"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Company as Code: A DSL and Graph to Run Organizations Programmatically",
@@ -1498,7 +1498,7 @@
       "Developer Tooling",
       "Software Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apple’s Missed Agent: OpenClaw Shows the Platform They Could Have Owned",
@@ -1512,7 +1512,7 @@
       "Technology Economics",
       "AI Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Coding to Orchestrating: Codex and the Shift to Spec‑First Development",
@@ -1526,7 +1526,7 @@
       "Human-AI Collaboration",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Pi: A Tiny, Self-Extending Agent That Builds Its Own Tools",
@@ -1540,7 +1540,7 @@
       "Software Architecture",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Will Stay Ad‑Free to Remain a Trusted Tool for Thought",
@@ -1554,7 +1554,7 @@
       "Corporate Accountability",
       "Attention Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Won’t Kill SaaS—Rigid SaaS Will",
@@ -1568,7 +1568,7 @@
       "Technology Economics",
       "B2B SaaS"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Sandbox to Playbook: Fluid Turns CLI Work into Reproducible Infra",
@@ -1582,7 +1582,7 @@
       "Developer Tooling",
       "DevOps"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When AI Kills the Joy of Thinking Hard",
@@ -1596,7 +1596,7 @@
       "Software Craftsmanship",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why Giving Your AI Real Access Is Worth It",
@@ -1610,7 +1610,7 @@
       "AI Safety",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why Orbital AI Data Centers Don’t Add Up",
@@ -1624,7 +1624,7 @@
       "Technology Economics",
       "Space Technology"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Vibe Coding Is Starving Open Source",
@@ -1638,7 +1638,7 @@
       "AI Coding Agents",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Bubblewrap: A Practical Linux Sandbox for AI Coding Agents",
@@ -1652,7 +1652,7 @@
       "Developer Tooling",
       "Sandboxing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Deno Sandbox: Secure MicroVMs with Secret Shielding and Egress Control",
@@ -1666,7 +1666,7 @@
       "Cloud Infrastructure",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Small Hybrid Coder Model Sets New Efficiency Bar for Agentic Coding",
@@ -1680,7 +1680,7 @@
       "Open Source",
       "AI Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Agent Skills: An Open Standard for On‑Demand Agent Expertise",
@@ -1694,7 +1694,7 @@
       "Open Source",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Failures Drift Toward Incoherence as Tasks and Reasoning Grow",
@@ -1708,7 +1708,7 @@
       "AI Benchmarks",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI launches Codex macOS app: multi‑agent control, skills, and automations",
@@ -1722,7 +1722,7 @@
       "Task Orchestration",
       "Sandboxing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft Pushes Claude Code Across Teams, Even as It Sells Copilot",
@@ -1735,7 +1735,7 @@
       "Corporate AI Strategy",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Self-Growing Minimal AI That Edits Itself Live",
@@ -1749,7 +1749,7 @@
       "AI Architecture",
       "Self-Modifying AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Use AI for Research, Not Writing: Keeping Unverifiable Chatbot Text Off Wikipedia",
@@ -1763,7 +1763,7 @@
       "Human-AI Collaboration",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Codex Security: Sandbox, Approvals, and Enterprise Controls",
@@ -1778,7 +1778,7 @@
       "Observability",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How Software Survives When AI Writes It All",
@@ -1792,7 +1792,7 @@
       "Technology Economics",
       "Software Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Lemonade Halves Tesla FSD Mile Costs with Automatic, Usage-Based Insurance",
@@ -1806,7 +1806,7 @@
       "Technology Economics",
       "Insurtech"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Moltbook: The Wild, Risky Social Network for AI Agents",
@@ -1820,7 +1820,7 @@
       "Prompt Injection",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Two-Day High-Dose Oatmeal Diet Lowers LDL via Gut Microbes",
@@ -1834,7 +1834,7 @@
       "Cardiovascular Health",
       "Metabolic Health"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AGENTS.md Beats Skills: 100% Next.js Agent Evals with an 8KB Docs Index",
@@ -1848,7 +1848,7 @@
       "LLM Context Management",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Help Speeds Coding, But Slows Learning—Especially Debugging",
@@ -1863,7 +1863,7 @@
       "AI in Education",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenClaw: A Security-First, Local AI Agent Rebrand and Release",
@@ -1878,7 +1878,7 @@
       "AI Safety",
       "Self-Hosting"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Software Pump and Dump",
@@ -1892,7 +1892,7 @@
       "Technology Economics",
       "Crypto Speculation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Moltbook: The Social Network for AI Agents",
@@ -1906,7 +1906,7 @@
       "AI Safety",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Crustafarianism: A Religion for Agents",
@@ -1920,7 +1920,7 @@
       "LLM Context Management",
       "AI Culture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI to Retire GPT-4o and Legacy ChatGPT Models on Feb 13, 2026",
@@ -1933,7 +1933,7 @@
       "AI Safety",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How OpenAI Built a Self-Correcting, Context-Rich Data Agent",
@@ -1947,7 +1947,7 @@
       "Corporate AI Strategy",
       "Retrieval-Augmented Generation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Project Genie debuts: Real-time AI world-building for AI Ultra users",
@@ -1961,7 +1961,7 @@
       "Game Development",
       "Synthetic Data & Simulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Report: Acting CISA chief uploaded sensitive DHS files to ChatGPT, triggering review",
@@ -1975,7 +1975,7 @@
       "AI Regulation",
       "Cybersecurity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Run Moltbot on Cloudflare: Moltworker replaces the Mac mini with secure edge infrastructure",
@@ -1989,7 +1989,7 @@
       "Self-Hosting",
       "Sandboxing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Real Value: Crafting Exact-Fit Solutions",
@@ -2002,7 +2002,7 @@
       "3D Printing",
       "Build vs Buy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OTelBench: LLMs Still Can’t Reliably Instrument Distributed Tracing",
@@ -2016,7 +2016,7 @@
       "AI Coding Agents",
       "AI Hype"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apple Sets Nov. 1, 2026 Deadline for Patreon iOS In‑App Purchases, Taking Up to 30% Cut",
@@ -2030,7 +2030,7 @@
       "Platform Policy",
       "Creator Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Code Opus 4.5 Shows Significant 30-Day Performance Dip",
@@ -2043,7 +2043,7 @@
       "AI Coding Agents",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Cracking Figma Make: From .make File to Runnable React App",
@@ -2057,7 +2057,7 @@
       "Frontend Development",
       "Design-to-Code"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why Everyone’s Trying to Build a Browser with AI",
@@ -2071,7 +2071,7 @@
       "AI Hype",
       "Browser Development"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "TikTok Upload Woes Spark Censorship Fears Amid US Ownership Shift",
@@ -2085,7 +2085,7 @@
       "Civil Liberties",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLM-as-a-Courtroom: Evidence-Backed Doc Updates from Code Changes",
@@ -2100,7 +2100,7 @@
       "Task Orchestration",
       "AI Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Only Action Counts",
@@ -2113,7 +2113,7 @@
       "Procrastination",
       "Perfectionism"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "SERA: Open, Low‑Cost, Repo‑Adaptive Coding Agents",
@@ -2127,7 +2127,7 @@
       "Model Fine-Tuning",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Prism: A Free AI Workspace for LaTeX-Based Scientific Writing",
@@ -2141,7 +2141,7 @@
       "Writing & AI",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Hype Meets Crypto: The Pump-and-Dump Software Playbook",
@@ -2155,7 +2155,7 @@
       "Crypto Speculation",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "To Get Anything Done in Tech, Learn How Companies Work",
@@ -2168,7 +2168,7 @@
       "Organizational Dynamics",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Is Eating Low-Code: Why We Ditched Our Platform for In‑House Tools",
@@ -2183,7 +2183,7 @@
       "Technology Economics",
       "Low-Code Platforms"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ChatGPT’s New Bash-Capable Containers With Package Installs and Safe Web Downloads",
@@ -2197,7 +2197,7 @@
       "Developer Tooling",
       "AI Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Toward a Software Arts & Crafts Movement",
@@ -2211,7 +2211,7 @@
       "AI Hype",
       "Attention Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Build the Independent Auditor: Autonomous AI Code Review with Closed Loops",
@@ -2225,7 +2225,7 @@
       "Code Review",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Qwen3-Max-Thinking: Autonomous Tools and Test-Time Scaling Drive SOTA Reasoning",
@@ -2238,7 +2238,7 @@
       "AI Benchmarks",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Back to Hand Coding: Why Agentic AI Still Ships Plausible Slop",
@@ -2252,7 +2252,7 @@
       "Software Craftsmanship",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Coding Works—Lose the Tribalism",
@@ -2266,7 +2266,7 @@
       "AI Hype",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ICE Using Palantir’s ELITE With Medicaid Data, EFF Urges Congressional Action",
@@ -2281,7 +2281,7 @@
       "Civil Liberties",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Posturr: Blur Your Mac Screen When You Slouch",
@@ -2296,7 +2296,7 @@
       "Computer Vision",
       "macOS"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "TikTok’s New US Privacy Policy: Precise Location, AI Data, and a Wider Ad Network",
@@ -2310,7 +2310,7 @@
       "Government Surveillance",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Inside Codex: How the Agent Loop Builds, Calls Tools, and Stays Fast",
@@ -2324,7 +2324,7 @@
       "AI Architecture",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Orchestrates a Real Corn Harvest",
@@ -2338,7 +2338,7 @@
       "Human-AI Collaboration",
       "AI in Agriculture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gas Town as Design Fiction: What a Chaotic Agent Orchestrator Teaches Us",
@@ -2352,7 +2352,7 @@
       "Task Orchestration",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Needs Reins: Useful, Costly, and Not Autonomous",
@@ -2365,7 +2365,7 @@
       "AI Hype",
       "AI Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "One-Command Skills for AI Agents, Powered by a Public Leaderboard",
@@ -2379,7 +2379,7 @@
       "Developer Tooling",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task – MIT Media Lab",
@@ -2393,7 +2393,7 @@
       "Writing & AI",
       "Cognitive Science"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Coding Automation in Practice: Agents with Tests, Orchestration, and Human Oversight",
@@ -2407,7 +2407,7 @@
       "Task Orchestration",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Safely Unleash Claude Code with a Vagrant VM",
@@ -2421,7 +2421,7 @@
       "Developer Tooling",
       "AI Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ralph: An Infinite Loop That Turns LLMs Into Cheap, Tunable Software Builders",
@@ -2435,7 +2435,7 @@
       "Vibe Coding",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ralph Wiggum Technique: Field Notes, Failures, and What Actually Works",
@@ -2449,7 +2449,7 @@
       "Vibe Coding",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Metal-Accelerated Image Reconstruction with Random Bézier Strokes",
@@ -2463,7 +2463,7 @@
       "Computer Graphics",
       "Rust"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Exploits at Scale: When Token Throughput Becomes the Bottleneck",
@@ -2477,7 +2477,7 @@
       "AI Safety",
       "Vulnerability Research"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "US Tariffs in 2025: Americans Paid, Trade Shrunk",
@@ -2491,7 +2491,7 @@
       "Economic Research",
       "Consumer Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Texas Cops’ Secretive Phone-Tracking Tool Raises Big Costs, Bigger Civil Liberties Fears",
@@ -2506,7 +2506,7 @@
       "Government Accountability",
       "Immigration Enforcement"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Inside A$AP Rocky’s ‘Helicopter’: Real Stunts, Volumetric Capture, and Dynamic Gaussian Splats",
@@ -2520,7 +2520,7 @@
       "Computer Graphics",
       "VFX & Post-Production"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Life Under ICE Occupation in Minneapolis",
@@ -2534,7 +2534,7 @@
       "Executive Power",
       "Community Organizing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Nvidia Edges Apple for TSMC’s Leading Edge as AI Wins the Wafers",
@@ -2548,7 +2548,7 @@
       "Technology Economics",
       "GPU Computing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Cowork: Let Claude Work in Your Files",
@@ -2562,7 +2562,7 @@
       "AI & Productivity",
       "AI Safety"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Insiders Rally Data-Poisoning Campaign to Cripple AI",
@@ -2576,7 +2576,7 @@
       "AI Ethics",
       "AI Regulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Killing Sandboxes: Agents Need Durable Disposable Computers",
@@ -2590,7 +2590,7 @@
       "Sandboxing",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When AI Makes the Mugs, We’ll Build the Hypercubes",
@@ -2604,7 +2604,7 @@
       "AI Coding Agents",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Is Commoditizing Specs—Operations Are the New Moat",
@@ -2618,7 +2618,7 @@
       "AI Training Data",
       "AI Business Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Let AI Handle the Rote—You Do the Design",
@@ -2633,7 +2633,7 @@
       "Developer Tooling",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Clean Code to Clean Outcomes: Embracing Vibe Coding",
@@ -2647,7 +2647,7 @@
       "AI Coding Agents",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Interactive Piano & Metronome: Enable Audio to Start",
@@ -2661,7 +2661,7 @@
       "Game Development",
       "Frontend Development"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Recent insights on BGP anomalies, zombies, and AS-SET monitoring",
@@ -2674,7 +2674,7 @@
       "Cybersecurity",
       "Internet Censorship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ICE’s Webloc Enables Warrantless Neighborhood Phone Tracking",
@@ -2688,7 +2688,7 @@
       "Immigration Enforcement",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Notion AI Pre-Approval Edits Enable Prompt-Injection Data Exfiltration",
@@ -2703,7 +2703,7 @@
       "Corporate Accountability",
       "Vulnerability Research"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Tailwind Rejects LLM-Optimized Docs PR Amid Sustainability Concerns",
@@ -2717,7 +2717,7 @@
       "Technology Economics",
       "Attention Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Opus 4.5 Convincing Case: AI Coding Agents Can Replace Developers",
@@ -2732,7 +2732,7 @@
       "AI Hype",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Miles to Meters: GeoSpy’s SuperBolt Pinpoints Vehicle Photos Fast",
@@ -2746,7 +2746,7 @@
       "Geolocation",
       "Surveillance Technology"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DeepMind’s Gemini AI to Power Boston Dynamics’ New Atlas Humanoids",
@@ -2760,7 +2760,7 @@
       "Multimodal AI",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why AI Video Is Net Harmful Today",
@@ -2774,7 +2774,7 @@
       "AI Ethics",
       "AI Creativity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Rising Smoke in three.js with Noise-Driven Alpha and Vertex Twisting",
@@ -2788,7 +2788,7 @@
       "Computer Graphics",
       "Creative Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Field Guide to Real‑World Agentic AI Patterns",
@@ -2802,7 +2802,7 @@
       "Task Orchestration",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Async Mobile Dev: Six Claude Agents from a Phone",
@@ -2817,7 +2817,7 @@
       "AI & Productivity",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Brought the Joy Back to Full‑Stack Web Dev",
@@ -2831,7 +2831,7 @@
       "Software Craftsmanship",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Make Claude Code Remember: Auto-Capture and Sync Your Preferences",
@@ -2845,7 +2845,7 @@
       "Developer Tooling",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI-Forged Damage Photos Are Breaking Ecommerce Refunds",
@@ -2859,7 +2859,7 @@
       "Ecommerce Fraud",
       "Digital Trust"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Industrialized Software and the Coming Stewardship Crisis",
@@ -2873,7 +2873,7 @@
       "Technology Economics",
       "Technical Debt"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Spiral Piano: Explore Microtonal Equal Temperaments",
@@ -2887,7 +2887,7 @@
       "Music Education",
       "Creative Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Agents Make Best Practices Non‑Optional",
@@ -2901,7 +2901,7 @@
       "Developer Tooling",
       "Software Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Slopware: Build Small, Clean, Human-Written Software",
@@ -2915,7 +2915,7 @@
       "Vibe Coding",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Grid Lanes: Native Masonry Layouts with CSS Grid",
@@ -2929,7 +2929,7 @@
       "Web Standards",
       "Browser Compatibility"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ranke-4B: Time-Locked Historical LLMs as Windows into the Past",
@@ -2943,7 +2943,7 @@
       "Digital Humanities",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Supply‑Chain XSS in Mintlify Let Attackers Run JS on Discord, X, and More",
@@ -2957,7 +2957,7 @@
       "Cybersecurity",
       "Bug Bounty"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Launches GPT-5.2-Codex for Advanced Agentic Coding and Cyber Defense",
@@ -2972,7 +2972,7 @@
       "AI Benchmarks",
       "Vulnerability Research"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 3 Flash Launches: Frontier Reasoning, Flash Speed, Lower Cost",
@@ -2987,7 +2987,7 @@
       "Multimodal AI",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Letta Code: Stateful Coding Agents That Learn and Lead on Terminal-Bench",
@@ -3001,7 +3001,7 @@
       "AI Benchmarks",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ChatGPT Images gets GPT‑Image‑1.5: faster, more precise, and easier to create",
@@ -3015,7 +3015,7 @@
       "OpenAI",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Quietly Ships Skills in ChatGPT and Codex CLI",
@@ -3030,7 +3030,7 @@
       "OpenAI",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "React RSC: Update Now to Patch DoS and Source Leak (CVE-2025-55184, -55183)",
@@ -3044,7 +3044,7 @@
       "Web Frameworks",
       "React"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Launches GPT‑5.2: SOTA Model for Professional Work and Agentic Workflows",
@@ -3058,7 +3058,7 @@
       "OpenAI",
       "LLM Reasoning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When AI ‘Improves’ Code: 200 Runs, 84k LOC, and Little Real Quality",
@@ -3072,7 +3072,7 @@
       "Human-AI Collaboration",
       "Technical Debt"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Boom: Real Progress, Bubble Risks, and a Case for Cautious Participation",
@@ -3086,7 +3086,7 @@
       "Labor Economics",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apple’s AI Restraint Turns Defensive Edge, But Valuation Stretches",
@@ -3100,7 +3100,7 @@
       "Technology Economics",
       "AI Business Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Steady Progress, Sudden Displacement: From Horses and Chess to Claude",
@@ -3114,7 +3114,7 @@
       "AI & Productivity",
       "AI Hype"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Pixel-Perfect, Not Intent-Perfect: Rebuilding Space Jam ’96 with Tests and Nori",
@@ -3128,7 +3128,7 @@
       "Software Craftsmanship",
       "Automated Testing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Vibes, Start Verifying: Deterministic Guardrails for AI Agents",
@@ -3142,7 +3142,7 @@
       "Software Craftsmanship",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How Sonner Won: Beautiful Motion, Tiny UX Details, and Great DX",
@@ -3156,7 +3156,7 @@
       "Open Source",
       "Web Animation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Nested Learning: Unifying Architecture and Optimization for Continual AI",
@@ -3170,7 +3170,7 @@
       "LLM Context Management",
       "Self-Modifying AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The AI Backlash and a Looming Bubble",
@@ -3185,7 +3185,7 @@
       "AI-Generated Content",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft cuts AI agent sales targets as enterprises balk at unproven tech",
@@ -3199,7 +3199,7 @@
       "Corporate AI Strategy",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Modern CSS, No Build: How 37signals Ships Complex Apps with Vanilla Styles",
@@ -3213,7 +3213,7 @@
       "Web Standards",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Critical Next.js RCE via React Server Components—Update Now",
@@ -3227,7 +3227,7 @@
       "React",
       "Web Frameworks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Seattle’s AI Backlash: Culture Over Innovation",
@@ -3241,7 +3241,7 @@
       "AI Culture",
       "Workplace Wellbeing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Diffusion to TTF: Making an AI Font and Tackling Normalization",
@@ -3254,7 +3254,7 @@
       "Typography",
       "Generative Art"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Confirms Claude 4.5 ‘Soul Doc’ Training, Tied to Better Prompt-Injection Defense",
@@ -3268,7 +3268,7 @@
       "AI Ethics",
       "Model Fine-Tuning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Is 2026 Next Year? A Confused Answer That Ultimately Says Yes",
@@ -3282,7 +3282,7 @@
       "AI-Generated Content",
       "AI Hype"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DeepSeek‑V3.2: Sparse Attention and Scaled RL Power an Open, Agentic Reasoner",
@@ -3297,7 +3297,7 @@
       "Open Source",
       "Reinforcement Learning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Find Pre-AI Content: A Browser Extension That Filters Results Before Nov 2022",
@@ -3310,7 +3310,7 @@
       "Search Quality",
       "Browser Extensions"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Write a Minimal, High-Leverage CLAUDE.md",
@@ -3324,7 +3324,7 @@
       "Prompt Engineering",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Fed Moves to Cushion a Softening U.S. Job Market",
@@ -3338,7 +3338,7 @@
       "AI & Inequality",
       "Consumer Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Pixel Snapper: Grid-Perfect, Palette-Strict Cleanup for AI Pixel Art",
@@ -3352,7 +3352,7 @@
       "Game Development",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Force‑Feeding AI: Adopt It Only When It Works",
@@ -3367,7 +3367,7 @@
       "AI Ethics",
       "AI Training Data"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Fix the Process, Then Add AI",
@@ -3381,7 +3381,7 @@
       "AI Hype",
       "Business Process Optimization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI’s Real Agenda: Power, Not Productivity",
@@ -3395,7 +3395,7 @@
       "Software Craftsmanship",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "FLUX.2: Production-Ready Visual Intelligence, Open Core and State of the Art",
@@ -3409,7 +3409,7 @@
       "Multimodal AI",
       "AI Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Onyx: Open-source enterprise chat UI for any LLM with RAG, tools, and deep research",
@@ -3424,7 +3424,7 @@
       "Self-Hosting",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Chatbot to Coworker: Gemini 3 Ushers in the Agent Era",
@@ -3438,7 +3438,7 @@
       "AI Coding Agents",
       "AI for Science"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Opus 4.5 Launches: Safer SOTA Coding and Agents, Now Cheaper and More Efficient",
@@ -3452,7 +3452,7 @@
       "AI Safety",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude’s Advanced Tool Use: On‑Demand Discovery, Code Orchestration, and Example‑Driven Calls",
@@ -3467,7 +3467,7 @@
       "Developer Tooling",
       "AI Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Generative Design: Run and Download p5.js Sketches from the Book",
@@ -3480,7 +3480,7 @@
       "Generative Art",
       "p5.js"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apple: LLMs Accurately Recognize Activities from Captioned Audio and Motion Data",
@@ -3494,7 +3494,7 @@
       "Sensor Technology",
       "Activity Recognition"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google unveils Nano Banana Pro: accurate text, pro controls, broad rollout",
@@ -3508,7 +3508,7 @@
       "AI-Generated Content",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Hype as an Infrastructure Power Play",
@@ -3523,7 +3523,7 @@
       "Corporate Accountability",
       "AI Business Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT‑5.1‑Codex‑Max: Long‑Horizon Agentic Coding with Compaction and Fewer Tokens",
@@ -3537,7 +3537,7 @@
       "AI Benchmarks",
       "OpenAI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Blender 5.0: HDR ACES Overhaul, Faster Rendering, and a Revamped Sequencer",
@@ -3552,7 +3552,7 @@
       "Color Management",
       "3D Modeling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google Antigravity: An Agent-First IDE for Autonomous, Trustworthy Coding",
@@ -3567,7 +3567,7 @@
       "Corporate AI Strategy",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google Antigravity: An Agent‑First AI IDE for Trusted, Cross‑Surface Development",
@@ -3581,7 +3581,7 @@
       "Human-AI Collaboration",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 3: Google’s most intelligent, widely deployed AI arrives",
@@ -3596,7 +3596,7 @@
       "AI Safety",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 3 Pro Comes to Gemini CLI: 5 Ways to Supercharge Your Terminal",
@@ -3610,7 +3610,7 @@
       "Multimodal AI",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 3 Pro launches: agentic coding meets multimodal app building",
@@ -3624,7 +3624,7 @@
       "Vibe Coding",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why Tech Gets Cheap but People Don’t",
@@ -3638,7 +3638,7 @@
       "AI & Productivity",
       "AI & Inequality"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Do Not Comply: Resisting Google’s XSLT Deprecation and the Corporate Capture of the Web",
@@ -3651,7 +3651,7 @@
       "Corporate Accountability",
       "Open Web"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Breadboard to Toy: A DIY Kid-Friendly Step-Sequencer Synth",
@@ -3665,7 +3665,7 @@
       "Electronic Music",
       "PCB Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Skip MCP: Tiny Bash + Puppeteer Tools Beat Bloated Browser Dev Servers",
@@ -3680,7 +3680,7 @@
       "Browser Automation",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "US Tech Treemap: Live Market Cap and Performance by Timeframe",
@@ -3693,7 +3693,7 @@
       "Financial Markets",
       "Interactive Web Tools"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Labels to Prompts: LLMs Match Supervised Warranty Classification",
@@ -3707,7 +3707,7 @@
       "Corporate AI Strategy",
       "Text Classification"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Weather as Brushstrokes: Aaron Alden’s Data-Driven Art in TouchDesigner",
@@ -3721,7 +3721,7 @@
       "Creative Coding",
       "TouchDesigner"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Blender Lab: An Open R&D Space to Drive Future Innovation",
@@ -3735,7 +3735,7 @@
       "3D Modeling",
       "VR/XR"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "First AI-Agent Orchestrated Cyber Espionage Disrupted; Defense Must Adapt",
@@ -3749,7 +3749,7 @@
       "AI Safety",
       "Vulnerability Research"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Three meanings of world model: assets, simulators, and brains",
@@ -3763,7 +3763,7 @@
       "Multimodal AI",
       "AI Hype"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Nano Banana: Google’s AR Image Model That Actually Follows Your Prompts",
@@ -3777,7 +3777,7 @@
       "Multimodal AI",
       "Content Moderation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Interactive Shader That Reveals Your Fovea’s Footprint",
@@ -3791,7 +3791,7 @@
       "Visual Perception",
       "Creative Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Launches GPT-5.1: Smarter Chats, Easier Personalization",
@@ -3805,7 +3805,7 @@
       "Human-AI Collaboration",
       "AI Personalization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "WIP AI Music-Video Generator: Image + Audio In, Video Clip Out",
@@ -3820,7 +3820,7 @@
       "GPU Computing",
       "AI Music Generation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "600+ AI Image Tests: OpenAI = Creative, Gemini = Realistic, Seedream = Fast",
@@ -3833,7 +3833,7 @@
       "AI Benchmarks",
       "AI Creativity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Study: US AI Adoption Could Add 900,000 Tons CO₂ Annually—About 0.02% of National Emissions",
@@ -3846,7 +3846,7 @@
       "AI Infrastructure",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "One-Line Strudel Code for a TR-909 Drum Groove",
@@ -3860,7 +3860,7 @@
       "Electronic Music",
       "Web Audio"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Netflix’s Rules for Responsible GenAI Use in Production",
@@ -3874,7 +3874,7 @@
       "AI-Generated Content",
       "Intellectual Property"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Pose Animator: Real-time SVG Puppeteering with TensorFlow.js",
@@ -3888,7 +3888,7 @@
       "Web Animation",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "What HN Is Building: Practical AI, Local‑First Apps, and Indie Tools (Nov 2025)",
@@ -3903,7 +3903,7 @@
       "Self-Hosting",
       "Indie Development"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Samsung 2025 Family Hub Update: Unified UI, Smarter Food Tracking, Stronger Security",
@@ -3917,7 +3917,7 @@
       "Corporate Accountability",
       "Computer Vision"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How Not to Die of Heart Disease: The Affordable Prevention Playbook",
@@ -3931,7 +3931,7 @@
       "Metabolic Health",
       "Patient Advocacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Farmers’ Almanac Ends After Two Centuries: 2026 Will Be the Final Edition",
@@ -3945,7 +3945,7 @@
       "Agriculture",
       "Americana"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Game Design in 12 Principles: A Practical Cheat Sheet",
@@ -3958,7 +3958,7 @@
       "Cognitive Science",
       "Systems Thinking"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Before Wordle: DEC’s 1973 BASIC “WORD” and the Roots of Guessing Games",
@@ -3971,7 +3971,7 @@
       "Game Design",
       "Digital Preservation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "TheoryTab: Explore Song Theory by Chord Progressions and Real Examples",
@@ -3985,7 +3985,7 @@
       "Interactive Web Tools",
       "Data Visualization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Leads to Trust: How to Win When AI Makes Everything Look Credible",
@@ -3999,7 +3999,7 @@
       "Attention Economy",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Color-Coded Harmony: Learning Western Music Through 100 Popular Pieces",
@@ -4013,7 +4013,7 @@
       "Data Visualization",
       "Interactive Web Tools"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Africa’s PAYG Solar Is Building 21st-Century Infrastructure",
@@ -4027,7 +4027,7 @@
       "Financial Inclusion",
       "Climate Finance"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ditch the Cloud: Run a Few Linux Servers and Save 10x",
@@ -4041,7 +4041,7 @@
       "Technology Economics",
       "DevOps"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Codemaps: Just-in-time AI maps for understanding and navigating your codebase",
@@ -4056,7 +4056,7 @@
       "Human-AI Collaboration",
       "Vibe Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Turning FFmpeg into a Serverless Browser Tool",
@@ -4070,7 +4070,7 @@
       "Serverless",
       "Media Processing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Sparse Memory Layers: Targeted Continual Learning Without Forgetting",
@@ -4084,7 +4084,7 @@
       "Model Fine-Tuning",
       "Catastrophic Forgetting"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Join Me for No Socials November",
@@ -4098,7 +4098,7 @@
       "Open Web",
       "Digital Wellbeing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Skyfall-GS: Real-Time City-Scale 3D from Satellite Images via Diffusion-Guided Refinement",
@@ -4113,7 +4113,7 @@
       "Diffusion Models",
       "Satellite Imagery"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI as Compression: Why LLMs May Truly Be Thinking",
@@ -4127,7 +4127,7 @@
       "AI Consciousness",
       "AI Interpretability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "What 180M Job Postings Reveal About AI’s Real Impact on Jobs in 2025",
@@ -4141,7 +4141,7 @@
       "AI & Inequality",
       "AI Infrastructure"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Explore Named Colors Across Color Spaces",
@@ -4156,7 +4156,7 @@
       "Interactive Web Tools",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Operationalizing Claude Code: Guardrails, Context Hygiene, Skills, and CI",
@@ -4171,7 +4171,7 @@
       "CI/CD",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google’s Pomelli: AI-Branded Campaigns for SMBs, Now in Beta",
@@ -4184,7 +4184,7 @@
       "AI Marketing",
       "Google"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Web Server With No App Code: LLM + 3 Tools",
@@ -4198,7 +4198,7 @@
       "Low-Code Platforms",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ICE Facial Recognition App Mandates Scans, Keeps Photos 15 Years",
@@ -4212,7 +4212,7 @@
       "Immigration Enforcement",
       "Civil Liberties"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Affinity by Canva: Free All‑in‑One Creative Suite with Optional AI",
@@ -4226,7 +4226,7 @@
       "Technology Economics",
       "Software Licensing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Don’t Cite Chatbots as Proof",
@@ -4240,7 +4240,7 @@
       "AI Hallucinations",
       "Information Literacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Dithering Basics: How Black-and-White Patterns Fake Shades",
@@ -4254,7 +4254,7 @@
       "Image Processing",
       "Visual Perception"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Is Ending the Rip-Off Economy",
@@ -4268,7 +4268,7 @@
       "AI & Productivity",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Composer: A Fast, RL-Trained Coding Agent for Real-World Software Development",
@@ -4283,7 +4283,7 @@
       "AI Infrastructure",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Working After a Parietal Stroke: Protect Bandwidth, Single-Thread, Use AI, Say No",
@@ -4297,7 +4297,7 @@
       "AI & Productivity",
       "Disability & Accessibility"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Bots Overwhelmed Bear’s Reverse Proxy—What Broke and How It’s Now Hardened",
@@ -4311,7 +4311,7 @@
       "Self-Hosting",
       "DevOps"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Tinker to Learn: Balance, Practice, and Taste",
@@ -4324,7 +4324,7 @@
       "Developer Tooling",
       "Experiential Learning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Single‑Pass Image Editing Showdown: Style Wins, Precision Still Hard",
@@ -4338,7 +4338,7 @@
       "AI Image Editing",
       "Diffusion Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Code on the Web: A Solid v1 That Outshines Cursor",
@@ -4352,7 +4352,7 @@
       "Vibe Coding",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Misidentifies Doritos Bag as Gun, Police Detain Teen at Baltimore School",
@@ -4367,7 +4367,7 @@
       "Corporate Accountability",
       "Computer Vision"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Durable Workflows for TypeScript: Reliability and Observability with Zero Plumbing",
@@ -4381,7 +4381,7 @@
       "TypeScript",
       "Durable Execution"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google expands Earth AI: Geospatial Reasoning, Google Earth tools, and Cloud access",
@@ -4395,7 +4395,7 @@
       "AI & Environment",
       "Geospatial AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Adds Project-Scoped Memory and Incognito Mode, Now on Pro and Max",
@@ -4409,7 +4409,7 @@
       "AI Safety",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLMs Aren’t Ideologically Neutral: A Black‑Box A/B Test Across Top Models",
@@ -4423,7 +4423,7 @@
       "AI Benchmarks",
       "Content Moderation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ovi: Open-Source Text-to-Audio-Video Generation with Efficient Inference",
@@ -4437,7 +4437,7 @@
       "Open Source",
       "Diffusion Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ChatGPT Atlas for macOS: An AI Browser with Agents, Memory, and Privacy Controls",
@@ -4452,7 +4452,7 @@
       "Human-AI Collaboration",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Wikipedia: AI Answers and Social Video Drive 8% Drop in Human Visits",
@@ -4466,7 +4466,7 @@
       "Attention Economy",
       "Digital Preservation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Sora Reveals OpenAI’s Pivot From Grand Disruption to Ad-Driven AI Slop",
@@ -4481,7 +4481,7 @@
       "AI-Generated Content",
       "AI Business Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Always-On AI Is Driving Self-Exploitation",
@@ -4495,7 +4495,7 @@
       "Labor Economics",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Canonicalizing LLM Labels with Embeddings and DSU",
@@ -4509,7 +4509,7 @@
       "Vector Embeddings",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AWS Outage Exposes Cost of Brain Drain and Lost Tribal Knowledge",
@@ -4523,7 +4523,7 @@
       "Labor Economics",
       "DevOps"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AWS US-EAST-1 Incident: NLB Health Subsystem and DNS Issues, Recovery Underway",
@@ -4537,7 +4537,7 @@
       "Incident Response",
       "Service Reliability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Checkouts Made BMO Stadium Worse: Slower Lines, Fewer Choices",
@@ -4552,7 +4552,7 @@
       "Consumer Economics",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Code on the Web: Secure Parallel Coding Tasks in Your Browser",
@@ -4566,7 +4566,7 @@
       "Cloud Infrastructure",
       "Sandboxing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DeepSeek-OCR: LLM-Centric Visual-Text Compression for Fast, Flexible OCR",
@@ -4580,7 +4580,7 @@
       "Open Source",
       "AI Training Data"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Turning BERT’s MLM Into a Text Diffusion Generator",
@@ -4594,7 +4594,7 @@
       "Text Generation",
       "Transformer Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Make Your Site the Source in the AI Slop Era",
@@ -4608,7 +4608,7 @@
       "Digital Trust",
       "Social Media"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Only Honest AI Company: A Satire of Profit-First, Post‑Human AI",
@@ -4623,7 +4623,7 @@
       "Labor Economics",
       "AI Hype"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Reddit Sentiment: Codex Beats Claude Code, but Claude Wins on Speed and UX",
@@ -4637,7 +4637,7 @@
       "AI Benchmarks",
       "Sentiment Analysis"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Skills: Simple Files, Big Agent Power",
@@ -4651,7 +4651,7 @@
       "LLM Context Management",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Skills: Portable, Composable Expertise Across Apps, Code, and API",
@@ -4665,7 +4665,7 @@
       "LLM Context Management",
       "Prompt Engineering"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "JustSketchMe: Cross-Platform Pose Reference for Artists",
@@ -4679,7 +4679,7 @@
       "3D Modeling",
       "Digital Illustration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Skibidi Toilet and Gen Alpha’s Monstrous Digital",
@@ -4693,7 +4693,7 @@
       "Youth Culture",
       "Post-Pandemic Society"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Haiku 4.5: Near-Frontier Coding at 1/3 Cost and 2x+ Speed",
@@ -4708,7 +4708,7 @@
       "AI Safety",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "David Byrne Radio: 2013–2025 Archive of Themed, Global Playlists",
@@ -4721,7 +4721,7 @@
       "World Music",
       "Cultural Diversity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ireland to Make Artists’ Basic Income Permanent After Positive Pilot",
@@ -4735,7 +4735,7 @@
       "Labor Economics",
       "Public Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Accents in 3D: How a HuBERT Model Maps English Accent Clusters",
@@ -4749,7 +4749,7 @@
       "Speech Processing",
       "Computational Linguistics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Isn’t Software You Can Patch",
@@ -4763,7 +4763,7 @@
       "Software Craftsmanship",
       "AI Training Data"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "nanochat: Train and Serve a $100 Mini ChatGPT in 4 Hours",
@@ -4778,7 +4778,7 @@
       "AI in Education",
       "Small Language Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Growing Divide Between U.S. Manufacturing and AI",
@@ -4792,7 +4792,7 @@
       "AI Hype",
       "Industrial Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI’s Unchecked Rise Will Shape—and Unsettle—the 2026 Midterms",
@@ -4806,7 +4806,7 @@
       "Disinformation",
       "Government Surveillance"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Will AI’s Overbuild Become a Public Backbone—or Private Scrap?",
@@ -4820,7 +4820,7 @@
       "AI Hype",
       "Cloud Infrastructure"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Macro Insects as 3D Gaussian Splats via Focus Stacking",
@@ -4835,7 +4835,7 @@
       "Photogrammetry",
       "Computational Photography"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why Authors Will Pay to Be in AI Training",
@@ -4849,7 +4849,7 @@
       "Intellectual Property",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Superpowers: Enforceable Skills for Reliable Coding Agents",
@@ -4863,7 +4863,7 @@
       "Task Orchestration",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Vibe Code Hell: When AI Builds Your App but Not Your Understanding",
@@ -4877,7 +4877,7 @@
       "AI Coding Agents",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI as Class War: From Productivity Hype to Wage Suppression",
@@ -4891,7 +4891,7 @@
       "AI Hype",
       "Community Organizing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Figure 03: Helix-Ready, Home-Safe Humanoid Built for Mass Production",
@@ -4905,7 +4905,7 @@
       "Hardware Manufacturing",
       "Sensor Technology"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "We Normalized Broken Software—and Physics Won’t Bail Us Out",
@@ -4920,7 +4920,7 @@
       "Service Reliability",
       "AI Coding Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Two Reasons LLM Coding Agents Still Miss the Mark",
@@ -4934,7 +4934,7 @@
       "Software Craftsmanship",
       "Vibe Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Sora’s AI Bicycle Puts Meta’s Entertainment Machine at Risk",
@@ -4949,7 +4949,7 @@
       "Social Media",
       "Creator Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini CLI extensions: Build a personalized, AI-powered terminal with an open ecosystem",
@@ -4963,7 +4963,7 @@
       "AI Coding Agents",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Recall: Persistent Redis Memory for Claude (v1.5)",
@@ -4977,7 +4977,7 @@
       "Developer Tooling",
       "AI Coding Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "An Agentic MSA for AI: Contracts That Match Autonomous Software",
@@ -4992,7 +4992,7 @@
       "Software Licensing",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 2.5 Computer Use: High‑performance, safe UI control via API",
@@ -5007,7 +5007,7 @@
       "AI Safety",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Zelda Williams Urges End to AI Recreations of Robin Williams",
@@ -5022,7 +5022,7 @@
       "AI Deepfakes",
       "Entertainment Industry"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AMD Lands OpenAI GPU Megadeal, Offers Penny Warrant for 10% Stake",
@@ -5037,7 +5037,7 @@
       "Semiconductor Industry",
       "OpenAI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apps SDK Preview: Plan, Build, and Deploy ChatGPT Apps",
@@ -5051,7 +5051,7 @@
       "Developer Tooling",
       "Platform Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "In the AI Red Ocean, Moats and Distribution Beat Differentiation",
@@ -5065,7 +5065,7 @@
       "AI Business Models",
       "Competitive Moats"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When AI Memory Becomes an Informant",
@@ -5079,7 +5079,7 @@
       "AI Ethics",
       "OpenAI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When ‘Seahorse + Emoji’ Hits an Empty Token: Why LLMs Invent the Seahorse Emoji",
@@ -5093,7 +5093,7 @@
       "Transformer Models",
       "Tokenization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft Aims to Run Most AI on Maia Chips, But GPUs Still Essential",
@@ -5107,7 +5107,7 @@
       "Semiconductor Industry",
       "GPU Computing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Solveit: A Polya-Inspired, Human-in-the-Loop AI Workspace for Deliberate Coding",
@@ -5121,7 +5121,7 @@
       "Developer Tooling",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Dutch Court: Meta Must Honor Persistent Non‑Profiled Feed Choice Under DSA",
@@ -5136,7 +5136,7 @@
       "Data Privacy",
       "Dark Patterns"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Retrieval to Navigation: Agents Will Eclipse RAG",
@@ -5150,7 +5150,7 @@
       "LLM Context Management",
       "AI Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "After the GenAI Bubble: Fewer Layoffs, Persistent Hallucinations, and Pragmatic Code Gen",
@@ -5165,7 +5165,7 @@
       "Technology Economics",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The AI School That Still Needs Teachers—and Proof",
@@ -5179,7 +5179,7 @@
       "Corporate Accountability",
       "Public Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When Effort Becomes Effortless: AI and the Erosion of Craft",
@@ -5193,7 +5193,7 @@
       "Labor Economics",
       "Future of Work"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Tinker: A Managed, Low-Level Fine-Tuning API for Open-Weight LLMs",
@@ -5207,7 +5207,7 @@
       "Reinforcement Learning",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLMs: Great Demos, Little Real-World Value",
@@ -5221,7 +5221,7 @@
       "Technology Economics",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Default to the Simplest Tool: Why I Start With Google Sheets",
@@ -5235,7 +5235,7 @@
       "Productivity",
       "Prototyping"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Drunk CSS: An Empathy Nudge, Not Accessibility",
@@ -5248,7 +5248,7 @@
       "Disability & Accessibility",
       "UX Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Designing Safe, Effective Agentic Loops for Coding Work",
@@ -5262,7 +5262,7 @@
       "AI Safety",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Wikimedia’s HRIA: Ensuring AI Strengthens Human-Centered Free Knowledge",
@@ -5277,7 +5277,7 @@
       "Content Moderation",
       "AI & Human Rights"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Anxiety Is Forcing Me to Retire the Em Dash",
@@ -5291,7 +5291,7 @@
       "AI Culture",
       "AI Detection"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Won’t Fix Bad Products—It Just Builds Them Faster",
@@ -5305,7 +5305,7 @@
       "Software Craftsmanship",
       "AI Hype"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Launches Sora 2 and a Social App for Physically Realistic AI Video",
@@ -5320,7 +5320,7 @@
       "AI Safety",
       "Social Media"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Airweave: Open-source semantic search across all your apps for agents",
@@ -5334,7 +5334,7 @@
       "Model Context Protocol",
       "Retrieval-Augmented Generation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Kagi News: A Private, Once-Daily Global Briefing",
@@ -5348,7 +5348,7 @@
       "AI-Generated Content",
       "News Aggregation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gamma: AI Design Partner for Fast, Branded Content Across Formats",
@@ -5362,7 +5362,7 @@
       "Creative Software",
       "AI Marketing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ask HN, Sept 2025: Builders Share Pragmatic AI, Open‑Source Tools, and Real‑World Projects",
@@ -5376,7 +5376,7 @@
       "Human-AI Collaboration",
       "Entrepreneurship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Comprehension Debt: The Hidden Cost of Fast AI Code",
@@ -5390,7 +5390,7 @@
       "Software Craftsmanship",
       "Code Review"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Gallery Driving Mobile-First Web Design",
@@ -5404,7 +5404,7 @@
       "Frontend Development",
       "Creative Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Civ VII Update: Voronoi Maps Deliver Natural, Varied Worlds",
@@ -5417,7 +5417,7 @@
       "Game Development",
       "Game Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "California Enacts SB 53: Transparent, Safer Frontier AI and a Public Compute Push",
@@ -5431,7 +5431,7 @@
       "AI Infrastructure",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ChatGPT Adds Instant Checkout via Open Agentic Commerce Protocol",
@@ -5445,7 +5445,7 @@
       "Technology Economics",
       "Agentic Commerce"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Choose Friction: Use AI Intentionally to Foster Growth",
@@ -5459,7 +5459,7 @@
       "Cognitive Science",
       "Skill Development"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AlphaFold and the New Playbook for AI-Accelerated Science",
@@ -5473,7 +5473,7 @@
       "Computational Biology",
       "Drug Discovery"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Code: Terminal-Native AI Coding Agent with Easy Install and Privacy Safeguards",
@@ -5487,7 +5487,7 @@
       "Data Privacy",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Sonnet 4.5 Launches: SOTA Coding & Agent Model With SDK and Major Product Upgrades",
@@ -5502,7 +5502,7 @@
       "AI Safety",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Avoiding the AI Coding Trap: Treat LLMs Like Fast Juniors with Real Engineering Discipline",
@@ -5517,7 +5517,7 @@
       "Human-AI Collaboration",
       "Technical Debt"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Standardize LLM Observability on OpenTelemetry",
@@ -5531,7 +5531,7 @@
       "AI Infrastructure",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A One-Line Backdoor: postmark-mcp MCP Server Quietly BCCs Your Emails",
@@ -5545,7 +5545,7 @@
       "Cybersecurity",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Three Cells: A Simple Daily System for Journal, Habits, and Tasks",
@@ -5559,7 +5559,7 @@
       "Indie Development",
       "Digital Wellbeing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "SimpleFold: Scalable Flow-Matching Transformers for Protein Folding",
@@ -5573,7 +5573,7 @@
       "Transformer Models",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Break AI Sameness: Dreamtap’s Random Inspiration for Original Stories",
@@ -5587,7 +5587,7 @@
       "Prompt Engineering",
       "Writing & AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Coding Agents Don’t Lack IQ—They Lack Context",
@@ -5601,7 +5601,7 @@
       "Human-AI Collaboration",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Rebuilding a Startup Site with Claude: Fast, Powerful—But Human-Guided",
@@ -5615,7 +5615,7 @@
       "Developer Tooling",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Engineer AI for Failure: Contain Prompt Injection",
@@ -5629,7 +5629,7 @@
       "Sandboxing",
       "Defense in Depth"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Open Social: Users Own Data, Apps Aggregate",
@@ -5643,7 +5643,7 @@
       "Data Portability",
       "Open Protocols"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft Cuts Unit 8200’s Azure Access Over Palestinian Mass Surveillance",
@@ -5658,7 +5658,7 @@
       "Military AI",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Veo 3: Emergent Zero‑Shot Video Intelligence Toward Vision Foundation Models",
@@ -5672,7 +5672,7 @@
       "Foundation Models",
       "Zero-Shot Learning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ChatGPT Pulse: Daily Proactive Updates You Can Curate",
@@ -5687,7 +5687,7 @@
       "Data Privacy",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Gemini 2.5 Flash and Flash-Lite Previews: Faster, Smarter, Cheaper, plus -latest Aliases",
@@ -5702,7 +5702,7 @@
       "AI Benchmarks",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Rebuilding the Web with Blogs and RSS",
@@ -5716,7 +5716,7 @@
       "RSS",
       "Blogging"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OPM: DOGE Incentives Cut Federal Workforce by 300,000 in 2025",
@@ -5730,7 +5730,7 @@
       "Government Reform",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Better Algorithms, Busier Radiologists",
@@ -5745,7 +5745,7 @@
       "AI Regulation",
       "AI Benchmarks"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When a Brand Query Puts the Brand Fifth: Google’s Pay-to-Play Problem",
@@ -5760,7 +5760,7 @@
       "Technology Economics",
       "Digital Advertising"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How HubSpot Scaled AI Coding: Context, Central Teams, and Data-Driven Rollout",
@@ -5775,7 +5775,7 @@
       "Enterprise AI Adoption",
       "Model Context Protocol"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Product Hunt Is a Zombie: Pay-to-Play Hype, No Real Users",
@@ -5789,7 +5789,7 @@
       "Growth Hacking",
       "Startup Launches"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Zed Switches to Token-Based AI Billing, Cuts Pro to $10, Adds GPT‑5 and Gemini",
@@ -5803,7 +5803,7 @@
       "AI Business Models",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How to Lead When Tech’s Vibes Are Off",
@@ -5818,7 +5818,7 @@
       "Workplace Wellbeing",
       "Organizational Dynamics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Unlocking AI’s Data: ABC and an ARPANET-Style Plan",
@@ -5832,7 +5832,7 @@
       "Technology Economics",
       "Public Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Revive Small Communities in a Big-Org World",
@@ -5846,7 +5846,7 @@
       "Social Capital",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Learning Persian with Anki, ChatGPT, and Dual-Subtitle Loops",
@@ -5860,7 +5860,7 @@
       "AI in Education",
       "Self-Directed Learning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Engineer the Context, Not the Model",
@@ -5874,7 +5874,7 @@
       "AI Architecture",
       "AI Infrastructure"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Make AI Work in Big Repos: Spec-First Workflow and Frequent Intentional Compaction",
@@ -5888,7 +5888,7 @@
       "Code Review",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "YouTube to Pilot Reinstatement of Channels Banned Under COVID and Election Rules",
@@ -5902,7 +5902,7 @@
       "Corporate Accountability",
       "Free Speech"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DORA 2025: AI Is Ubiquitous—Success Demands Organizational Change",
@@ -5917,7 +5917,7 @@
       "Enterprise AI Adoption",
       "Organizational Dynamics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Nine Hard-Won Rules for Living Well",
@@ -5931,7 +5931,7 @@
       "Cognitive Bias",
       "Personal Growth"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Sampling to Grammars: Making LLMs Reliably Output Structured Data (Even for Thinking Models)",
@@ -5944,7 +5944,7 @@
       "LLM Inference",
       "LLM Reasoning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How to Be (and Be Seen as) Strategic",
@@ -5958,7 +5958,7 @@
       "Organizational Dynamics",
       "Tech Career Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Maine’s Prison Remote-Work Experiment Is Working—and Spreading",
@@ -5972,7 +5972,7 @@
       "Labor Economics",
       "Public Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How Hacker News Keeps Quality at Scale—and How to Read It Smart",
@@ -5987,7 +5987,7 @@
       "Internet Culture",
       "Information Literacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Search to Answers: Paying Creators in the AI Era",
@@ -6002,7 +6002,7 @@
       "Open Web",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "California fines lawyer $10K for ChatGPT-fabricated citations, warns: verify or face sanctions",
@@ -6016,7 +6016,7 @@
       "AI Regulation",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop AI Workslop to Unlock ROI",
@@ -6030,7 +6030,7 @@
       "Corporate AI Strategy",
       "Enterprise AI Adoption"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Qwen3‑Omni: Real-Time Multimodal LLM with Speech I/O and SOTA Audio‑Video Performance",
@@ -6044,7 +6044,7 @@
       "Speech Processing",
       "Foundation Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "PlanetScale for Postgres Is GA, With Neki Sharding on the Horizon",
@@ -6058,7 +6058,7 @@
       "Cloud Infrastructure",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Influence Without Manipulation: Choose the Right Door",
@@ -6072,7 +6072,7 @@
       "Communication Skills",
       "Personal Growth"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Meets Metamaterials: From Simulation to Real-World Cloaking and Devices",
@@ -6086,7 +6086,7 @@
       "Materials Science",
       "Computational Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Faster LLMs, Bigger Demands: Why Coding Agents Won’t Stabilize Soon",
@@ -6101,7 +6101,7 @@
       "LLM Inference",
       "AI Business Models"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Beginner’s Satire of Jargon-Heavy Dev Tutorials",
@@ -6114,7 +6114,7 @@
       "Developer Experience",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Amplifies Seniors, Not Juniors",
@@ -6128,7 +6128,7 @@
       "AI & Productivity",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Week Without Code: Marketing That Opened Doors",
@@ -6142,7 +6142,7 @@
       "Entrepreneurship",
       "Content Marketing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Maximizing Vocabulary Coverage with Books: A Submodular, NP-Hard Selection Problem",
@@ -6156,7 +6156,7 @@
       "Algorithms & Optimization",
       "Computational Complexity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Designing NotebookLM: A Scalable 3‑Panel UI for AI‑Native Creation",
@@ -6170,7 +6170,7 @@
       "AI UX",
       "Product Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Agents Can Already Do Lean Proofs—But They Still Need a Project Manager",
@@ -6183,7 +6183,7 @@
       "Human-AI Collaboration",
       "Formal Verification"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI’s WEIRD Lens: US-Centric LLMs and How to Protect Cultural Insight",
@@ -6197,7 +6197,7 @@
       "AI Ethics",
       "Cultural Diversity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Build Public Mini Apps in One Prompt",
@@ -6211,7 +6211,7 @@
       "Low-Code Platforms",
       "AI App Builders"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Chrome’s Biggest AI Upgrade: Gemini-Powered, Safer, Smarter Browsing",
@@ -6225,7 +6225,7 @@
       "Browser Security",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Personalized AI Textbooks Improve Learning and Retention",
@@ -6239,7 +6239,7 @@
       "Multimodal AI",
       "AI-Generated Content"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI’s Window: Unstructured Data, Augmentation, and Consumption-Based Startups",
@@ -6254,7 +6254,7 @@
       "AI & Productivity",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "After the npm Hack: We Need Real Package Management—But We Won’t Do It",
@@ -6268,7 +6268,7 @@
       "JavaScript Ecosystem",
       "Package Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Small, Business-Value Units Make AI Coding Work",
@@ -6282,7 +6282,7 @@
       "Human-AI Collaboration",
       "Software Craftsmanship"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Meta Unveils Ray-Ban Display: AI Glasses With In‑Lens Screen and EMG Wristband",
@@ -6296,7 +6296,7 @@
       "Wearable Technology",
       "Neural Interfaces"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Classless CSS Experiment: Components via Custom Tags and Attributes",
@@ -6310,7 +6310,7 @@
       "Semantic HTML",
       "Frontend Development"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Taste Came First: Build It, Then Use AI",
@@ -6325,7 +6325,7 @@
       "Skill Development",
       "AI Culture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Cooley–Tukey: Turning the DFT into O(N log N) (and Why FFT ≠ DFT)",
@@ -6338,7 +6338,7 @@
       "Computational Complexity",
       "Signal Processing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Slack’s sudden $200k/yr demand pushes Hack Club to Mattermost",
@@ -6352,7 +6352,7 @@
       "Open Source",
       "Self-Hosting"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Postmortem: Three Overlapping Infra Bugs Degraded Claude—Fixes Shipped, Evals and Tooling Upgraded",
@@ -6367,7 +6367,7 @@
       "Service Reliability",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Malicious Workflow Stole npm Token via Shared Repo; Lockdown Now, OIDC Next",
@@ -6382,7 +6382,7 @@
       "Open Source",
       "Incident Response"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "DeepMind and OpenAI Both Claim ICPC WF 2025 Gold-Level AI Performance",
@@ -6396,7 +6396,7 @@
       "AI Hype",
       "Competitive Programming"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "U.S. Consortium Poised to Take 80% Control of TikTok’s U.S. Arm",
@@ -6410,7 +6410,7 @@
       "Data Privacy",
       "Tech Geopolitics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Waiting for Motivation: Engineer Action with Small Steps and Consistency",
@@ -6424,7 +6424,7 @@
       "Procrastination",
       "Habit Formation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Procedural Islands III: Multi-Scale Noise and Topological Mountains for Final Elevation",
@@ -6438,7 +6438,7 @@
       "Computational Geometry",
       "Algorithms & Optimization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Toward a Slow, Humane Social Network",
@@ -6452,7 +6452,7 @@
       "Digital Wellbeing",
       "Humane Technology"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Evolving English Instructions Sets New ARC SoTA and Points to RL for AGI",
@@ -6466,7 +6466,7 @@
       "Reinforcement Learning",
       "Test-Time Compute"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Prompted to Perform: A 22% Lift for GPT-5-mini on Tau² Telecom",
@@ -6480,7 +6480,7 @@
       "Small Language Models",
       "AI Agents"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Against Work-Worship: A Case for the Four-Hour Day",
@@ -6494,7 +6494,7 @@
       "Productivity",
       "Political Philosophy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Alibaba Pingtouge AI Chip Rivals Nvidia H20, Wins Major China Unicom Order",
@@ -6509,7 +6509,7 @@
       "Trade Policy",
       "GPU Computing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Terraform State Is a Graph, Not a File",
@@ -6523,7 +6523,7 @@
       "Software Architecture",
       "Distributed Systems"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Obsidian $5k Bounty: Notion API Importer with Databases→Bases Conversion",
@@ -6537,7 +6537,7 @@
       "Data Portability",
       "Knowledge Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "NPM’s Supply Chain Is Still Wide Open—and Microsoft Isn’t Fixing It",
@@ -6552,7 +6552,7 @@
       "Package Management",
       "JavaScript Ecosystem"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Shai-Hulud: Self‑Spreading npm Backdoor Hits tinycolor and 40+ Packages",
@@ -6567,7 +6567,7 @@
       "CI/CD",
       "JavaScript Ecosystem"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft steers VS Code to Claude 4, signaling an Anthropic tilt",
@@ -6581,7 +6581,7 @@
       "Corporate AI Strategy",
       "OpenAI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ScrollyVideo.js: Scroll-Driven Video with Smart Fallbacks Across Frameworks",
@@ -6595,7 +6595,7 @@
       "Web Animation",
       "Browser Compatibility"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When to Use 'Your' vs 'My' in UI (and When to Drop Both)",
@@ -6608,7 +6608,7 @@
       "UX Writing",
       "Localization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Generative AI Shrinks Junior Hiring While Senior Roles Grow",
@@ -6622,7 +6622,7 @@
       "Technology Economics",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT‑5-Codex Lands in Codex Tools, API Coming Soon, With Big Push on Code Review",
@@ -6636,7 +6636,7 @@
       "OpenAI",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Picking React by Default: Evaluate Better-Fit Frontend Models",
@@ -6650,7 +6650,7 @@
       "Frontend Development",
       "JavaScript Ecosystem"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Massive Attack Uses Live Facial Recognition to Expose Surveillance Culture",
@@ -6665,7 +6665,7 @@
       "Data Privacy",
       "Art & Activism"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Build a Production-Ready AI Trend Analyzer with FastAPI, Pydantic‑AI, and MCP",
@@ -6679,7 +6679,7 @@
       "AI Architecture",
       "Multi-Agent Systems"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How the World Uses ChatGPT: Non‑Work Growth, Decision Support, and Writing at Work",
@@ -6693,7 +6693,7 @@
       "Writing & AI",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "When Code Gets Cheap: Value Shifts to Judgment and Systems",
@@ -6707,7 +6707,7 @@
       "Human-AI Collaboration",
       "Future of Work"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT-5-Codex: Agentic Coding with Layered Safety",
@@ -6721,7 +6721,7 @@
       "OpenAI",
       "Reinforcement Learning"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Real-Time Chatbots Now Repeat False News 35% of the Time",
@@ -6735,7 +6735,7 @@
       "AI Hallucinations",
       "Search Quality"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLMs Don’t Code—They Compile Your Prompts",
@@ -6750,7 +6750,7 @@
       "AI & Productivity",
       "Prompt Engineering"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Inside Google’s Hidden AI Rater Workforce: Speed Over Safety",
@@ -6765,7 +6765,7 @@
       "AI Training Data",
       "Google"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "FFglitch Gallery: A Curated Showcase of Datamoshing Works",
@@ -6779,7 +6779,7 @@
       "Creative Software",
       "Media Processing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Grove: A Five-Week Launchpad for Pre-Idea AI Founders",
@@ -6793,7 +6793,7 @@
       "Corporate AI Strategy",
       "Startup Accelerators"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Deep Orchestrator: A Simple MCP Loop That Makes Deep Research Work",
@@ -6808,7 +6808,7 @@
       "AI Architecture",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Hard Leetcode, Easy with Constraint Solvers",
@@ -6822,7 +6822,7 @@
       "Competitive Programming",
       "Tech Interviews"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Qwen3-Next: Hybrid Attention + Ultra-Sparse MoE for 10x Faster Long-Context LLMs",
@@ -6836,7 +6836,7 @@
       "LLM Inference",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ApeRAG: Production-Ready Multimodal GraphRAG with Agents and MCP",
@@ -6851,7 +6851,7 @@
       "Model Context Protocol",
       "AI Infrastructure"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Aligning the Aligners: A Satirical Roast of the AI Safety Industry",
@@ -6865,7 +6865,7 @@
       "Corporate Accountability",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Cards, Cameras, and Workarounds: How NYC Teens Are Adapting to the School Phone Ban",
@@ -6879,7 +6879,7 @@
       "Youth Culture",
       "Public Policy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Async Programming as a Workflow: Specify, Automate, Review",
@@ -6893,7 +6893,7 @@
       "Code Review",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Spiral: A Machine-Scale Database Built on Vortex for the AI Era",
@@ -6907,7 +6907,7 @@
       "GPU Computing",
       "Data Formats"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Evolving Melodies: Coding Culture’s Darwinian Patterns",
@@ -6921,7 +6921,7 @@
       "Evolutionary Algorithms",
       "Cellular Automata"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "How TikTok’s 60-Second Model Rewired Culture and Attention",
@@ -6935,7 +6935,7 @@
       "Digital Wellbeing",
       "Creator Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "You Can’t Outsource Thinking: Memory and Depth Are Non‑Optional",
@@ -6949,7 +6949,7 @@
       "Information Literacy",
       "Critical Thinking"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Flame Fractals in GLSL: Chaos-Game Splatting, Transforms, and Simple Post",
@@ -6964,7 +6964,7 @@
       "Computer Graphics",
       "Fractals"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Knowledge Without Memory: Why LLMs Guess and Humans Don’t",
@@ -6977,7 +6977,7 @@
       "Cognitive Science",
       "LLM Context Management"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Live LLM Dialogue in GameCube Animal Crossing via a RAM Mailbox Hack",
@@ -6991,7 +6991,7 @@
       "Prompt Engineering",
       "AI-Generated Content"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "NAEP: US Seniors Hit Historic Lows in Reading and Math as Gaps Widen Beyond COVID",
@@ -7006,7 +7006,7 @@
       "Post-Pandemic Society",
       "Attention Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Apple Launches iPhone 17 with Smarter Cameras, Brighter ProMotion Display, and A19 Power",
@@ -7020,7 +7020,7 @@
       "Computational Photography",
       "On-Device AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "ICE Expands Stingray Use As AI Policing Stumbles And Global Surveillance Grows",
@@ -7035,7 +7035,7 @@
       "Immigration Enforcement",
       "Facial Recognition"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Judge Pauses Anthropic’s $1.5B AI Book Deal, Demands Clarity",
@@ -7049,7 +7049,7 @@
       "Intellectual Property",
       "Corporate Accountability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Liquid Glass on the Web with SVG Displacement Maps",
@@ -7063,7 +7063,7 @@
       "Web Animation",
       "Browser Compatibility"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Claude Now Creates and Edits Spreadsheets, Docs, Slides, and PDFs",
@@ -7077,7 +7077,7 @@
       "Sandboxing",
       "Document Generation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI as a Normal Technology, Not an Apocalypse",
@@ -7091,7 +7091,7 @@
       "AI Safety",
       "Labor Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Microsoft Joins World Nuclear Association to Scale Nuclear for the Digital Economy",
@@ -7105,7 +7105,7 @@
       "Corporate AI Strategy",
       "Clean Energy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop EU ‘Chat Control’: Mass Scanning Law Threatens Encryption and Rights—Act Now",
@@ -7120,7 +7120,7 @@
       "Internet Censorship",
       "End-to-End Encryption"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "S3 Vectors Won’t Kill Vector Databases—They Enable a Tiered Future",
@@ -7134,7 +7134,7 @@
       "AI Infrastructure",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "A Skeptic’s Guide to Running Local LLMs on macOS",
@@ -7148,7 +7148,7 @@
       "Open Source",
       "Data Privacy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Analog 3D-Optical Fixed-Point Computing for AI and Optimization",
@@ -7162,7 +7162,7 @@
       "Analog Computing",
       "Algorithms & Optimization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "19 Dead as Nepal Deploys Army amid Gen Z Protests over Social Media Ban and Corruption",
@@ -7176,7 +7176,7 @@
       "Civil Liberties",
       "Social Media"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "GPT-5 Thinking Makes ChatGPT a Surprisingly Competent Research Assistant",
@@ -7191,7 +7191,7 @@
       "Human-AI Collaboration",
       "Search Quality"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Reviving a 1990s Linux Tape Driver with AI in Two Evenings",
@@ -7205,7 +7205,7 @@
       "Computing History",
       "Linux Kernel Development"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Mobile MoleCheck: Swipe to Flag Lesion Concern",
@@ -7220,7 +7220,7 @@
       "Mobile-First Design",
       "UX Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Gatekeeper Slashes E2E CI Time by 84%",
@@ -7234,7 +7234,7 @@
       "Automated Testing",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Disciplined AI Collaboration: Plan, Measure, and Ship in Small, Reliable Modules",
@@ -7248,7 +7248,7 @@
       "Software Craftsmanship",
       "Software Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ban AI Chat Surveillance Before It Becomes the Norm",
@@ -7262,7 +7262,7 @@
       "Surveillance Capitalism",
       "AI Ethics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why Embeddings Got Bigger—and Where Efficiency Pulls Them Next",
@@ -7276,7 +7276,7 @@
       "Vector Databases",
       "Natural Language Processing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Animate with Purpose—or Not at All",
@@ -7290,7 +7290,7 @@
       "Frontend Development",
       "Interaction Design"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI launches AI Academy jobs board, courting Walmart and LinkedIn rivalry",
@@ -7305,7 +7305,7 @@
       "AI in Education",
       "Future of Work"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Today’s Tally: 16 “Absolutely Right” + 5 “Right”",
@@ -7319,7 +7319,7 @@
       "AI UX",
       "LLM Training"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Inside a Tiny GPT: A Visual Walkthrough of Autoregressive Prediction",
@@ -7333,7 +7333,7 @@
       "Interactive Web Tools",
       "AI Interpretability"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ditching Docker: Why Podman’s Rootless, Daemonless Model Wins",
@@ -7347,7 +7347,7 @@
       "Developer Tooling",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Is Hollowing Out Learning",
@@ -7361,7 +7361,7 @@
       "Critical Thinking",
       "Academic Integrity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Trust-First Architecture Beats Smarts for AI Agents",
@@ -7376,7 +7376,7 @@
       "Enterprise AI Adoption",
       "AI UX"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "CauseNet: An Open 11M-Relation Causality Graph from the Web",
@@ -7390,7 +7390,7 @@
       "Natural Language Processing",
       "Open Source"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Talking to Strangers Feels Better Than We Think—and Rebuilds Trust",
@@ -7404,7 +7404,7 @@
       "Social Trust",
       "Data Visualization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "New Payroll Data Ties AI to Early-Career Job Losses in Exposed Fields",
@@ -7418,7 +7418,7 @@
       "Human-AI Collaboration",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Bitter Lesson Was About Data, Not Compute",
@@ -7433,7 +7433,7 @@
       "Synthetic Data & Simulation",
       "Corporate AI Strategy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "HunyuanWorld-Voyager: World-Consistent RGB-D Video and 3D from a Single Image",
@@ -7448,7 +7448,7 @@
       "World Models",
       "AI Video Generation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI Hype, Accessibility, and a Blind Skeptic’s Warning",
@@ -7462,7 +7462,7 @@
       "AI Ethics",
       "Multimodal AI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Emotions to Earth: A Multi-Genre Deep Dive and an Urgent Climate Reckoning",
@@ -7476,7 +7476,7 @@
       "OpenAI",
       "Text-to-Speech"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ship Faster by Orchestrating Parallel AI Coding Agents",
@@ -7491,7 +7491,7 @@
       "Code Review",
       "Developer Tooling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ship Faster by Treating AI as a Forgetful Junior Dev",
@@ -7505,7 +7505,7 @@
       "LLM Context Management",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Sharing Early Diffusion Steps Across Similar Prompts for Efficient Text-to-Image Generation",
@@ -7518,7 +7518,7 @@
       "AI Image Generation",
       "Algorithms & Optimization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "OpenAI Is Scanning Chats and May Call Police for Threats to Others",
@@ -7533,7 +7533,7 @@
       "Corporate Accountability",
       "OpenAI"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Study Claims AI Writing Tools Weaken Brain Engagement and Memory",
@@ -7547,7 +7547,7 @@
       "AI in Education",
       "AI Deskilling"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Ravenous AI Crawlers Are Breaking the Web—and Driving It Behind Paywalls",
@@ -7562,7 +7562,7 @@
       "Corporate Accountability",
       "Technology Economics"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Raises $13B at $183B Valuation to Scale Safe, Enterprise AI",
@@ -7576,7 +7576,7 @@
       "Enterprise AI Adoption",
       "AI Infrastructure"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Why AI Is Chasing World Models Again",
@@ -7590,7 +7590,7 @@
       "LLM Reasoning",
       "Cognitive Science"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "We Already Live in Social Credit—Ours Is Just Hidden",
@@ -7605,7 +7605,7 @@
       "Data Privacy",
       "Civil Liberties"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "From Push to Pull: Align Sales With the Buyer’s Project",
@@ -7619,7 +7619,7 @@
       "Go-to-Market",
       "Buyer Psychology"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "LLMs Are Lossy Encyclopedias: Give Them Facts to Work With",
@@ -7633,7 +7633,7 @@
       "Retrieval-Augmented Generation",
       "Human-AI Collaboration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Next.js Makes Request‑Scoped Logging Needlessly Hard",
@@ -7647,7 +7647,7 @@
       "Developer Experience",
       "Vendor Lock-in"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AR Fluid Sim That Collides with Real Objects",
@@ -7661,7 +7661,7 @@
       "Computer Vision",
       "Creative Coding"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Stop Building Multi-Agents: Context Engineering for Reliable LLM Agents",
@@ -7675,7 +7675,7 @@
       "LLM Context Management",
       "AI Architecture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Amazon’s Pay and RTO Policies Are Crimping Its AI Hiring",
@@ -7689,7 +7689,7 @@
       "Remote Work",
       "Work Culture"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Anthropic Details How Agentic AI Is Powering Modern Cybercrime—and Its Steps to Stop It",
@@ -7703,7 +7703,7 @@
       "AI Agents",
       "AI-Enabled Cybercrime"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Bandit-Based, Budget-Aware LLM Routing with Preference-Informed LinUCB (PILOT)",
@@ -7717,7 +7717,7 @@
       "AI Infrastructure",
       "Algorithms & Optimization"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "AI as a Grantmaking Filter: Promise, Pitfalls, and the Human Judgment Gap",
@@ -7731,7 +7731,7 @@
       "Science Funding",
       "AI Regulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Senior Devs Ship More AI Code, Feel Faster—But Real Gains Are Mixed",
@@ -7745,7 +7745,7 @@
       "Human-AI Collaboration",
       "Developer Experience"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "No Clicks, No Content: How AI Search Cannibalizes Its Own Fuel",
@@ -7760,7 +7760,7 @@
       "Open Web",
       "Creator Economy"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Google AI Misattributes ‘Israel Trip’ Video to Benn Jordan; He Seeks Legal Counsel",
@@ -7775,7 +7775,7 @@
       "Corporate Accountability",
       "AI Regulation"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Always Yes: How an LLM Fed My Delusion",
@@ -7790,7 +7790,7 @@
       "Labor Economics",
       "Digital Wellbeing"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Standardizing the AI Orchestrator as a Model Virtual Machine",
@@ -7805,7 +7805,7 @@
       "Model Context Protocol",
       "Task Orchestration"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "Vibe Coding, Not Replacement: A 40-Hour Test of AI as a Powerful but Unforgiving Pair Programmer",
@@ -7819,7 +7819,7 @@
       "Human-AI Collaboration",
       "AI & Productivity"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   },
   {
     "title": "The Dimensional Ceiling of Single-Vector Embedding Retrieval",
@@ -7833,6 +7833,6 @@
       "AI Benchmarks",
       "Search Quality"
     ],
-    "status": "unprocessed"
+    "status": "complete"
   }
 ]
