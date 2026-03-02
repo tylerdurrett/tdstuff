@@ -8,6 +8,8 @@ import Link from 'next/link'
 import { ExternalLinkIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { ReadingListMetrics } from '@/components/blog/ReadingListMetrics'
+import { ReadingListArt, hasSketchForSlug } from '@/features/algorithmic-art'
+import type { ReadingListArtData } from '@/features/algorithmic-art'
 import '../../blog/prose.css'
 
 type Props = {
@@ -168,6 +170,35 @@ export default async function ReadingListItem({ params }: Props) {
                 {item.featuredImage.caption}
               </p>
             )}
+          </Container>
+        )}
+
+        {hasSketchForSlug(slug) && (
+          <Container size="xl">
+            <div className="mb-8 flex justify-center rounded-2xl overflow-hidden">
+              <ReadingListArt
+                data={{
+                  title: item.title,
+                  slug,
+                  gist: item.gist ?? null,
+                  shortSummary: item.shortSummary ?? null,
+                  keyPointCount: item.keyPoints?.length ?? 0,
+                  sentimentArticle: item.sentimentArticle ?? null,
+                  sentimentCommunity: item.sentimentCommunity ?? null,
+                  controversyScore: item.controversyScore ?? null,
+                  hnScore: item.hnScore ?? null,
+                  hnCommentCount: item.hnCommentCount ?? null,
+                  categories: (item.categories ?? [])
+                    .filter(Boolean)
+                    .map((c) => c.title),
+                  topics: (item.topics ?? [])
+                    .filter(Boolean)
+                    .map((t) => t.title),
+                  savedAt: item.savedAt ?? null,
+                } satisfies ReadingListArtData}
+                className="rounded-2xl overflow-hidden"
+              />
+            </div>
           </Container>
         )}
 

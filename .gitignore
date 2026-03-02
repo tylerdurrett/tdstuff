@@ -49,3 +49,6 @@ dist/
 
 # Screenshots
 _screenshots/
+
+# Generated algorithmic art HTML artifacts (regenerable from philosophy + data)
+art/reading-list/*/art.html
