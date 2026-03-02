@@ -173,35 +173,6 @@ export default async function ReadingListItem({ params }: Props) {
           </Container>
         )}
 
-        {hasSketchForSlug(slug) && (
-          <Container size="xl">
-            <div className="mb-8 flex justify-center rounded-2xl overflow-hidden">
-              <ReadingListArt
-                data={{
-                  title: item.title,
-                  slug,
-                  gist: item.gist ?? null,
-                  shortSummary: item.shortSummary ?? null,
-                  keyPointCount: item.keyPoints?.length ?? 0,
-                  sentimentArticle: item.sentimentArticle ?? null,
-                  sentimentCommunity: item.sentimentCommunity ?? null,
-                  controversyScore: item.controversyScore ?? null,
-                  hnScore: item.hnScore ?? null,
-                  hnCommentCount: item.hnCommentCount ?? null,
-                  categories: (item.categories ?? [])
-                    .filter(Boolean)
-                    .map((c) => c.title),
-                  topics: (item.topics ?? [])
-                    .filter(Boolean)
-                    .map((t) => t.title),
-                  savedAt: item.savedAt ?? null,
-                } satisfies ReadingListArtData}
-                className="rounded-2xl overflow-hidden"
-              />
-            </div>
-          </Container>
-        )}
-
         <Container size="xl">
           <div className="prose prose-lg prose-neutral max-w-none dark:prose-invert prose-headings:font-sans prose-headings:font-normal prose-h2:text-3xl md:prose-h2:text-4xl prose-h3:text-2xl md:prose-h3:text-3xl prose-h4:text-xl md:prose-h4:text-2xl">
             <p>{item.shortSummary}</p>
@@ -256,6 +227,35 @@ export default async function ReadingListItem({ params }: Props) {
             </div>
           </Container>
         )} */}
+
+        {hasSketchForSlug(slug) && (
+          <Container size="xl">
+            <div className="mt-12 flex justify-center rounded-2xl overflow-hidden">
+              <ReadingListArt
+                data={{
+                  title: item.title,
+                  slug,
+                  gist: item.gist ?? null,
+                  shortSummary: item.shortSummary ?? null,
+                  keyPointCount: item.keyPoints?.length ?? 0,
+                  sentimentArticle: item.sentimentArticle ?? null,
+                  sentimentCommunity: item.sentimentCommunity ?? null,
+                  controversyScore: item.controversyScore ?? null,
+                  hnScore: item.hnScore ?? null,
+                  hnCommentCount: item.hnCommentCount ?? null,
+                  categories: (item.categories ?? [])
+                    .filter(Boolean)
+                    .map((c) => c.title),
+                  topics: (item.topics ?? [])
+                    .filter(Boolean)
+                    .map((t) => t.title),
+                  savedAt: item.savedAt ?? null,
+                } satisfies ReadingListArtData}
+                className="rounded-2xl overflow-hidden"
+              />
+            </div>
+          </Container>
+        )}
       </article>
     </div>
   )

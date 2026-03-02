@@ -38,7 +38,8 @@ type Anchor = {
 // ---------- Sketch ----------
 
 export function sketch(p: p5, data: ReadingListArtData): void {
-  const SIZE = 800
+  const WIDTH = 1260
+  const HEIGHT = 540 // 21:9 cinematic
   const PARTICLE_COUNT = Math.max(200, (data.hnScore ?? 35) * 15)
   const ANCHOR_COUNT = data.keyPointCount || 5
   const CONTROVERSY = (data.controversyScore ?? 50) / 100 // 0-1
@@ -70,10 +71,10 @@ export function sketch(p: p5, data: ReadingListArtData): void {
   function initAnchors() {
     anchors = []
     for (let i = 0; i < ANCHOR_COUNT; i++) {
-      // Distribute anchors with some randomness, biased toward deeper regions
+      // Distribute anchors across the wide canvas, biased toward deeper regions
       anchors.push({
-        x: p.random(SIZE * 0.15, SIZE * 0.85),
-        y: p.random(SIZE * 0.3, SIZE * 0.85),
+        x: p.random(WIDTH * 0.1, WIDTH * 0.9),
+        y: p.random(HEIGHT * 0.3, HEIGHT * 0.85),
         strength: p.random(0.3, 1.0),
       })
     }
@@ -86,8 +87,8 @@ export function sketch(p: p5, data: ReadingListArtData): void {
     const hue = hueSet[Math.floor(p.random(hueSet.length))]
 
     return {
-      x: p.random(SIZE),
-      y: p.random(SIZE * 0.05, SIZE * 0.2),
+      x: p.random(WIDTH),
+      y: p.random(HEIGHT * 0.05, HEIGHT * 0.2),
       vx: p.random(-0.5, 0.5),
       vy: p.random(0.1, 0.5),
       depth: startDepth,
@@ -221,10 +222,10 @@ export function sketch(p: p5, data: ReadingListArtData): void {
     }
 
     // Wrap edges horizontally, constrain vertically
-    if (particle.x < 0) particle.x = SIZE
-    if (particle.x > SIZE) particle.x = 0
+    if (particle.x < 0) particle.x = WIDTH
+    if (particle.x > WIDTH) particle.x = 0
     if (particle.y < 0) particle.y = 10
-    if (particle.y > SIZE) particle.y = SIZE - 10
+    if (particle.y > HEIGHT) particle.y = HEIGHT - 10
   }
 
   function drawParticle(particle: Particle) {
@@ -258,7 +259,7 @@ export function sketch(p: p5, data: ReadingListArtData): void {
   // ---------- p5 lifecycle ----------
 
   p.setup = () => {
-    p.createCanvas(SIZE, SIZE)
+    p.createCanvas(WIDTH, HEIGHT)
     p.randomSeed(seed)
     p.noiseSeed(seed)
     p.colorMode(p.HSB, 360, 100, 100, 1)
@@ -278,7 +279,7 @@ export function sketch(p: p5, data: ReadingListArtData): void {
     p.colorMode(p.RGB, 255, 255, 255, 1)
     p.fill(12, 12, 14, 0.04) // Dark near-black with low opacity
     p.noStroke()
-    p.rect(0, 0, SIZE, SIZE)
+    p.rect(0, 0, WIDTH, HEIGHT)
 
     frameCount++
 
