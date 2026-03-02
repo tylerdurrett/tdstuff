@@ -262,6 +262,7 @@ export function sketch(p: p5, data: ReadingListArtData): void {
     p.randomSeed(seed)
     p.noiseSeed(seed)
     p.colorMode(p.HSB, 360, 100, 100, 1)
+    p.background(12, 12, 14) // dark background
 
     initAnchors()
 
@@ -273,9 +274,9 @@ export function sketch(p: p5, data: ReadingListArtData): void {
   }
 
   p.draw = () => {
-    // Very subtle background fade for trail persistence
+    // Subtle dark background fade for trail persistence
     p.colorMode(p.RGB, 255, 255, 255, 1)
-    p.fill(250, 249, 245, 0.04) // Warm near-white with low opacity
+    p.fill(12, 12, 14, 0.04) // Dark near-black with low opacity
     p.noStroke()
     p.rect(0, 0, SIZE, SIZE)
 
@@ -285,11 +286,6 @@ export function sketch(p: p5, data: ReadingListArtData): void {
     for (const particle of particles) {
       updateParticle(particle)
       drawParticle(particle)
-    }
-
-    // Stop animating after composition stabilizes
-    if (frameCount > 600) {
-      p.noLoop()
     }
   }
 }
